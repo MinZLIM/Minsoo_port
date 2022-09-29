@@ -49,8 +49,8 @@ Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
 
 <br />
 
-
+<img src="{{ "/assets/img/content/post-example/Banner.jpg" | absolute_url }}" alt="bay" class="post-pic"/>
 ##### FOOTNOTES
 
 [^1]: This is a note!
-<img src="{{ "/assets/img/content/post-example/Banner.jpg" | absolute_url }}" alt="bay" class="post-pic"/>
+
