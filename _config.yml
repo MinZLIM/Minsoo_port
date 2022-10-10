@@ -24,7 +24,7 @@ footer:
       link: mailto:mslim0202@hanmail.net
   follow:
     - name: Facebook
-      link: http://facebook.com/YourFacebookUsername
+      link: https://www.facebook.com/profile.php?id=100004460649902
 
 # Build settings
 markdown: kramdown
