@@ -21,7 +21,7 @@ og_image: /assets/img/content/post-example/Banner.jpg
 3. [Footnotes](#footnotes)
 
 #### 개요
-##### 1-1 T-PAT 목표
+##### T-PAT 목표
 Trusguard는 통합 NOS를 사용하고 있으며 CPU, Memory, Interface 등... Hardware적 구분은 NAPS와 Software적 정의를 통해 Platform 구분하고 Hardware Spec에 걸맞는 서비스를 제공하고 있다. 이에 따라 Fimeware가 신규로 제공되는 경우 전체 Platform은 영향을 받게되어 있다.
 <br />
 Firmware 변경이 발생되는 경우 Platform별 상이하게 발생될 수 있는 H/W기반 특성과 S/W특성을 사전에 검증하여 Firmware 변경 발생 시 안정적 품질의 서비스를 제공하는 것을 목표로 한다.
