@@ -14,7 +14,7 @@ og_image: /assets/img/content/post-example/Banner.jpg
 
 #### Table of Contents
 1. [개요](#개요)
-    * [T-PAT 목표](#개요-sub-part-1)
+    * [T-PAT 목표](#T-PAT-목표)
 2. [Part 2](#part-2)
     * [Part 2 Sub-part 1](#part-2-sub-part-1)
     * [Part 2 Sub-part 2](#part-2-sub-part-2)
