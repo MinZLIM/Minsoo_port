@@ -34,7 +34,15 @@ slug: /blog
 <br />
 -Platform Automaion Test 를 진행 Python 에서 Gauge 기반으로 스크립트를 작성하며, CICD 로 GOCD 를 활용. 
 <br />
+2021.12 - Upbit Coint Bot Project (Personal)
+<br />
+-개인 프로텍트로 업비트에서 제공하는 Rest API,webSocket 을 활용하여 코인 자동 매수/매도 프로그램을 작성. 차트 분석 지표인 Stocastic , RSI , MACD, etc 을 활용하여 구축.
+<br />
 2022.06 - vTG Project With OpenStack(Ahnlab)
 <br />
 -클라우드 기반 vTG 프로젝트를 진행하였으며 테스트 환경 구축을 위해 OpenStack(Xena)를 활용. OpenStack 에는 Glance , Keystone , Horizon, Cinder , Nova, Neutron 서비스 구동하여 진행.
+<br />
+2022.08 - TrusGuard QA_Object , Policy 기능 담당 변경 (Ahnlab)
+<br />
+-TrusGuard 의 Policy , Object 기능 QA 담당으로 White/Black List , Geoip Block , Auth rule, QOS/FQDN , etc 테스트 수행하며 다수의 Auth 서버 운영(LDAP,MSSQL,RADIUS,etc)
 <br />
