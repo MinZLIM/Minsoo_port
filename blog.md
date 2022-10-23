@@ -20,21 +20,21 @@ slug: /blog
 <br />
 2019.02 - 모의 해킹 프로젝트 (KH 정보교육원)
 <br />
-가상의 회사를 만들어 그 회사에 대한 침투를 시도하였습니다. 제가 맡은 역할은 공격자였으며 주로 파이썬을 활용한 공격을 하였습니다. flask를 사용해 보았으며, 리버스쉘 파일, 랜섬웨어 파일을 만들어 공격하였습니다. 이후 공격에 대한 대응 방안을 만들었습니다. 
+-가상의 회사를 만들어 그 회사에 대한 침투를 시도하였습니다. 제가 맡은 역할은 공격자였으며 주로 파이썬을 활용한 공격을 하였습니다. flask를 사용해 보았으며, 리버스쉘 파일, 랜섬웨어 파일을 만들어 공격하였습니다. 이후 공격에 대한 대응 방안을 만들었습니다. 
 <br />
 2019.09 - TMS QA 입사 (Ahnlab)
 <br />
-TMS(Threat Management System) 제품의 QA로 입사 Poilicy Manager 와 TM 기능에 대한 검증 수행. IXIA Packet Generator , TrusGuard , DPX , AIPS , etc 연동 제품에 대한 연계 테스트 수행
+-TMS(Threat Management System) 제품의 QA로 입사 Poilicy Manager 와 TM 기능에 대한 검증 수행. IXIA Packet Generator , TrusGuard , DPX , AIPS , etc 연동 제품에 대한 연계 테스트 수행
 <br />
 2020.02 - TrusGuard QA_ Content Filter , System 기능 담당 변경 (Ahnlab)
 <br />
-TrusGuard 의 ContentFilter , System 기능 QA 담당으로 AntiVirus , Malware Detection , Antispam , etc 테스트 하였으며 다수의 L7 서버 운영 (WEB ,DNS , SMTP, POP3 _ SSL , etc)
+-TrusGuard 의 ContentFilter , System 기능 QA 담당으로 AntiVirus , Malware Detection , Antispam , etc 테스트 하였으며 다수의 L7 서버 운영 (WEB ,DNS , SMTP, POP3 _ SSL , etc)
 <br />
 2020.06 - TrusGuard Platform Automation Test(Ahnlab)
 <br />
-Platform Automaion Test 를 진행 Python 에서 Gauge 기반으로 스크립트를 작성하며, CICD 로 GOCD 를 활용. 
+-Platform Automaion Test 를 진행 Python 에서 Gauge 기반으로 스크립트를 작성하며, CICD 로 GOCD 를 활용. 
 <br />
 2022.06 - vTG Project With OpenStack(Ahnlab)
 <br />
-클라우드 기반 vTG 프로젝트를 진행하였으며 테스트 환경 구축을 위해 OpenStack(Xena)를 활용. OpenStack 에는 Glance , Keystone , Horizon, Cinder , Nova, Neutron 서비스 구동하여 진행.
+-클라우드 기반 vTG 프로젝트를 진행하였으며 테스트 환경 구축을 위해 OpenStack(Xena)를 활용. OpenStack 에는 Glance , Keystone , Horizon, Cinder , Nova, Neutron 서비스 구동하여 진행.
 <br />
