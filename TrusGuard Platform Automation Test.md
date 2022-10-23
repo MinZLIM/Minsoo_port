@@ -13,7 +13,7 @@ og_image: /assets/img/content/post-example/Banner.jpg
 
 
 #### Table of Contents
-1. [1. 개요](#part-1)
+1. [개요](#part-1)
     * .[1-1 T-PAT 목표](#part-1-sub-part-1)
     * .[1-2 T-PAT 배경](#part-1-sub-part-2)
 2. [Part 2](#part-2)
@@ -21,7 +21,7 @@ og_image: /assets/img/content/post-example/Banner.jpg
     * [Part 2 Sub-part 2](#part-2-sub-part-2)
 3. [Footnotes](#footnotes)
 
-#### 1. 개요
+#### 개요
 ##### 1-1 T-PAT 목표
 Trusguard는 통합 NOS를 사용하고 있으며 CPU, Memory, Interface 등... Hardware적 구분은 NAPS와 Software적 정의를 통해 Platform 구분하고 Hardware Spec에 걸맞는 서비스를 제공하고 있다. 이에 따라 Fimeware가 신규로 제공되는 경우 전체 Platform은 영향을 받게되어 있다.
 <br />
