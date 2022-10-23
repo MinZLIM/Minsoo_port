@@ -1,25 +1,19 @@
 ---
 layout: post
 title:  "T-PAT(TrusGuard Platform Automation Test)"
-date:   2020-06-01 03:00:40 -0700
+date:   2020-06-01 10:00:40
 blurb: "A look at an example post using Bay Jekyll theme."
 og_image: /assets/img/content/post-example/Banner.jpg
 ---
 
-<img src="{{ "/assets/img/content/post-example/Banner.jpg" | absolute_url }}" alt="bay" class="post-pic"/>
 <br />
 <br />
-
-TrusGuard 
-Picture by [Bethany Legg](https://unsplash.com/@bkotynski).
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum[^1].
 
 <br />
 
 
 #### Table of Contents
-1. [1. 개요](#1. 개요)
+1. [1. 개요](#part-1)
     * .[1-1 T-PAT 목표](#1-1 T-PAT 목표)
     * .[1-2 T-PAT 배경](#1-2 T-PAT 배경)
 2. [Part 2](#part-2)
