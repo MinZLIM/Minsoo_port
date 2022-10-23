@@ -30,7 +30,7 @@ slug: /blog
 <br />
 -TrusGuard 의 ContentFilter , System 기능 QA 담당으로 AntiVirus , Malware Detection , Antispam , etc 테스트 하였으며 다수의 L7 서버 운영 (WEB ,DNS , SMTP, POP3 _ SSL , etc)
 <br />
-2020.06 - TrusGuard Platform Automation Test(Ahnlab)
+2020.06 - TrusGuard Platform Automation Test(Ahnlab) [T-PAT](https://https://minzlim.github.io/Minsoo_port/TPAT.md)
 <br />
 -Platform Automaion Test 를 진행 Python 에서 Gauge 기반으로 스크립트를 작성하며, CICD 로 GOCD 를 활용. 
 <br />
