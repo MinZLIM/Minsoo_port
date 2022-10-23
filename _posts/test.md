@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "T-PAT(TrusGuard Platform Automation Test)"
-date:   2020-06
+date:   2020-06-01 03:00:40 -0700
 blurb: "A look at an example post using Bay Jekyll theme."
 og_image: /assets/img/content/post-example/Banner.jpg
 ---
