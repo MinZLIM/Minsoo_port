@@ -118,7 +118,7 @@ Trusguard ALL Line-up 대상으로 각 1대씩 구축 : 2022. 10.31   기준 25�
 <br />
 자동화 환경에서 Route mode, Bridge mode의 자유로운 설정이 가능한 기초 물리 구성을 한다.
 <br />
-<img src="{{ "/assets/img/content/post-example/TPAT1.png" | absolute_url }}" alt="bay" class="post-pic"/>
+<img src="{{ "/assets/img/content/TPAT/TPAT1.png" | absolute_url }}" alt="bay" class="post-pic"/>
 <br />
 전체적인 물리구성도는 아래와 같고 eth2, eth3을 통해 모든 Line-up은 Switch 상,하단으로 연결되어 있다. eth4, eth5는 각각의 TG끼리 상,하단으로 연결되어 있다.
 <br />
@@ -128,5 +128,5 @@ Test목적에 자동화를 구축하여 Switch나 TG를 control하여 Bridge mod
 <br />
 Switch나 TG를 control하여 Bridge mode, Route mode를 선택하여 Traffic이 인가될 수 있는 기초 환경의 예
 <br />
-<img src="{{ "/assets/img/content/post-example/TPAT1.png" | absolute_url }}" alt="bay" class="post-pic"/>
+<img src="{{ "/assets/img/content/TPAT/TPAT2.png" | absolute_url }}" alt="bay" class="post-pic"/>
 <br />
