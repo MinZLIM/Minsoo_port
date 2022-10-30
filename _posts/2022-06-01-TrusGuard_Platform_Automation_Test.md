@@ -86,10 +86,8 @@ Platform 검증 Test Category 구현 계획
     ④ Platform별로 상이한 결과를 가져올 수 있는 Aging Test scenario 선별 
 <br />
 
-<br />
 #### 물리구성
 ##### 물리 구성 규칙
-<br />
 TrusGuard Line-up 중 20종 선별 및 모든 종류의 Ethernet Driver를 사용하는 환경을 구축한다.
 <br />
 -규칙
@@ -223,8 +221,3 @@ T-PAT는 다양한 Aging 검증 시나리오를 계획하고 있다. Traffic 인
 2) Reboot 반복 수행 - 안정성
 <br />
 3) Traffic 인가 - 안정성
-
-<br />
-
-<br />
-
