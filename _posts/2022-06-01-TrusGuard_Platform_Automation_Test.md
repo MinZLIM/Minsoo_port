@@ -42,7 +42,6 @@ TrusGuard의 플랫폼 별(H/W 사양에 따른) 검증 효율화
 2 ) 자동화를 통한 플랫폼 별 검증 진행
 <br />
 
-<br />
 ##### 배경
 TrusGuard는 2022년 현재 25종 (Low-end 6종, middle-end 13종, high-end 6종)의 Line-up 구성이며, 유지보수에 해당되는 제품까지 포함하여 총 25종의 platform을 지원하고 있다.
 <br />
@@ -58,17 +57,16 @@ TG의 경우 다양한 Platform과 NIC을 제공하고 있으며 일부 기능�
 <br />
 그러나 H/W를 기반으로 Software를 Test하는 환경과 시나리오는 부족한 실정이다. 주요 H/W변경, 전체 Platform에 영향을 주는 S/W수정, NAPS 버전 Upgrade 시 품질과 안정성 보증을 위해 때마다 수동 전수 검증 되고 있으며 이에 따른 비용이 발생한다.
 <br />
+<br />
 
 #### 구현과제
 ##### TG Platform 별 검증 효율화를 위한 환경 구축
 TrusGuard Line-up 중 25종 선별 및 모든 종류의 Ethernet Driver를 사용하는 환경을 구축한다.
+<br />
 Platform별 비교 시험과 검증이 가능한 자동화 구축 환경을 제공한다.
-
-
 <br />
 
 ##### TG Platform 기반의 자동화 검증 환경 구축
-<br />
 Control command: ssh접속 & cli 제어
 <br />
 Programming: Python3
@@ -88,12 +86,13 @@ Platform 검증 Test Category 구현 계획
     ④ Platform별로 상이한 결과를 가져올 수 있는 Aging Test scenario 선별 
 <br />
 
+<br />
 #### 물리구성
 ##### 물리 구성 규칙
 <br />
 TrusGuard Line-up 중 20종 선별 및 모든 종류의 Ethernet Driver를 사용하는 환경을 구축한다.
 <br />
-<규칙>
+-규칙
 <br />
 - 우선순위 1. Sales model
 <br />
@@ -118,7 +117,6 @@ Trusguard ALL Line-up 대상으로 각 1대씩 구축 : 2022. 10.31   기준 25�
 Linux Server (Worker) : 2대
 <br />
 ##### 물리 구성 세부 내용
-<br />
 자동화 환경에서 Route mode, Bridge mode의 자유로운 설정이 가능한 기초 물리 구성을 한다.
 <br />
 <img src="{{ "/assets/img/content/TPAT/TPAT1.png" | absolute_url }}" alt="bay" class="post-pic"/>
@@ -133,9 +131,10 @@ Switch나 TG를 control하여 Bridge mode, Route mode를 선택하여 Traffic이
 <br />
 <img src="{{ "/assets/img/content/TPAT/TPAT2.png" | absolute_url }}" alt="bay" class="post-pic"/>
 <br />
+
+<br />
 #### 자동화 구성
 ##### Spec
-<br />
 Trusguard 전 Platform을 지원하며 지원 가능한 TG의 Frimware는 TG2.7.3 이상으로 정의한다. (주요 유지보수 버전)
 <br />
 자동화 Framework : NQA팀에 구축된  Gauge와 GoCD를 사용하여 구현 한다.
@@ -147,7 +146,6 @@ Gauge는 테스트 케이스를 정의하고 자동으로 수행 하는 방법�
 GoCD는 CI/CD Tool 이며, GoCD를 통해 Firmware 변경 등의 조건을 주어 CI의 적용 가능하다.
 <br />
 ##### Framework
-<br />
 GoCD는 CI/CD Tool 이며,  아래와 같이 단일 Server와 다수의 Agent로 구성된다
 <br />
 <img src="{{ "/assets/img/content/TPAT/TPAT23.png" | absolute_url }}" alt="bay" class="post-pic"/>
@@ -167,7 +165,6 @@ T-PAT는 다양한 Aging 검증 시나리오를 계획하고 있다. Traffic 인
 <img src="{{ "/assets/img/content/TPAT/TPAT4.png" | absolute_url }}" alt="bay" class="post-pic"/>
 <br />
 ##### Test Case & Scenario
-<br />
 자동화 Test Case의 Category는 4가지로 구성한다.
 <br />
 ① Platform별로 상이한 H/W기반 동작을 검증할 수 있는 Test
@@ -227,4 +224,7 @@ T-PAT는 다양한 Aging 검증 시나리오를 계획하고 있다. Traffic 인
 <br />
 3) Traffic 인가 - 안정성
 
+<br />
+
+<br />
 
