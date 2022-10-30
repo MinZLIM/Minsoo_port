@@ -25,7 +25,7 @@ og_image: /assets/img/content/post-example/Banner.jpg
 4. [자동화 구성](#자동화-구성)
     * [Spec](#Spec)
     * [Framework](#Framework)
-    * [Test Case](Test-Case)
+    * [Test Case & Scenario](#Test-Case-&-Scenario)
   
 #### 개요
 ##### 목표
@@ -161,7 +161,7 @@ T-PAT는 다양한 Aging 검증 시나리오를 계획하고 있다. Traffic 인
 <br />
 <img src="{{ "/assets/img/content/TPAT/TPAT4.png" | absolute_url }}" alt="bay" class="post-pic"/>
 
-##### Test Case
+##### Test Case & Scenario
 자동화 Test Case의 Category는 4가지로 구성한다.
 <br />
 ① Platform별로 상이한 H/W기반 동작을 검증할 수 있는 Test
