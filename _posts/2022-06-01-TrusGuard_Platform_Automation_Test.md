@@ -22,7 +22,11 @@ og_image: /assets/img/content/post-example/Banner.jpg
 3. [물리구성](#물리구성)
     * [T-PAT 물리 구성 규칙](#T-PAT-물리-구성-규칙)
     * [T-PAT 물리 구성 세부 내용](#T-PAT-물리-구성-세부-내용)
-
+4. [자동화 구성](#자동화-구성)
+    * [spec](#spec)
+    * [Framework](#Framework)
+    * [Test Case & Scenario](Test-Case-&-Scenario)
+  
 #### 개요
 ##### T-PAT 목표
 Trusguard는 통합 NOS를 사용하고 있으며 CPU, Memory, Interface 등... Hardware적 구분은 NAPS와 Software적 정의를 통해 Platform 구분하고 Hardware Spec에 걸맞는 서비스를 제공하고 있다. 이에 따라 Fimeware가 신규로 제공되는 경우 전체 Platform은 영향을 받게되어 있다.
@@ -56,7 +60,6 @@ TG의 경우 다양한 Platform과 NIC을 제공하고 있으며 일부 기능�
 <br />
 
 #### 구현과제
-<br />
 ##### TG Platform 별 검증 효율화를 위한 환경 구축
 TrusGuard Line-up 중 25종 선별 및 모든 종류의 Ethernet Driver를 사용하는 환경을 구축한다.
 Platform별 비교 시험과 검증이 가능한 자동화 구축 환경을 제공한다.
@@ -86,7 +89,6 @@ Platform 검증 Test Category 구현 계획
 
 <br />
 #### 물리구성
-<br />
 ##### T-PAT 물리 구성 규칙
 <br />
 TrusGuard Line-up 중 20종 선별 및 모든 종류의 Ethernet Driver를 사용하는 환경을 구축한다.
@@ -113,7 +115,7 @@ Trusguard ALL Line-up 대상으로 각 1대씩 구축 : 2022. 10.31   기준 25�
 <br />
 환경구축용 Switch 1G, 10G Fiber: 1대
 <br />
-  Linux Server (Worker) : 2대
+Linux Server (Worker) : 2대
 <br />
 ##### T-PAT 물리 구성 세부 내용
 <br />
@@ -131,3 +133,98 @@ Switch나 TG를 control하여 Bridge mode, Route mode를 선택하여 Traffic이
 <br />
 <img src="{{ "/assets/img/content/TPAT/TPAT2.png" | absolute_url }}" alt="bay" class="post-pic"/>
 <br />
+#### 자동화 구성
+##### spec
+<br />
+Trusguard 전 Platform을 지원하며 지원 가능한 TG의 Frimware는 TG2.7.3 이상으로 정의한다. (주요 유지보수 버전)
+<br />
+자동화 Framework : NQA팀에 구축된  Gauge와 GoCD를 사용하여 구현 한다.
+<br />
+Gauge는 Python을 포함하여 다양한 언어를 지원하는 자동화 Framework이다. 
+<br />
+Gauge는 테스트 케이스를 정의하고 자동으로 수행 하는 방법을 제공한다. 완성도가 높은 테스트 구문은 다른 테스트 케이스의 일부 스텝 구문으로 재활용 가능하다.
+<br />
+GoCD는 CI/CD Tool 이며, GoCD를 통해 Firmware 변경 등의 조건을 주어 CI의 적용 가능하다.
+<br />
+##### framework
+<br />
+GoCD는 CI/CD Tool 이며,  아래와 같이 단일 Server와 다수의 Agent로 구성된다
+<br />
+<img src="{{ "/assets/img/content/TPAT/TPAT23.png" | absolute_url }}" alt="bay" class="post-pic"/>
+<br />
+PipeLine(Task)들을 자동으로 Agent에 할당하여 수행하는 구조이며
+<br />
+위와 같이 병렬 구조로 T-PAT를 수행 시 1개의 Agent는 1개의 Platform에 대한 Platform Automation Testing을 수행한다. 
+<br />
+Gauge를 GoCD와 연동 시 동시에 다수의 Platform에서 동일한 Test를 동시에 수행하고 보다 신속한 결과를 얻을 수 있다.
+<br />
+Gauge에서 작성된 Case들을 Pipeline 구조화 하여 시나리오 대로 구축을하고 git Server나 Abis와 연동을 하여 Trigger 조건을
+<br />
+설정해주면 Frimware 변경 시 Test가 이루어 지는 CI 구축이 가능하다.  
+<br />
+T-PAT는 다양한 Aging 검증 시나리오를 계획하고 있다. Traffic 인가 시 Docker Container를 활용하여 다양한 검증이 이루어 질 수 있도록 계획한다.
+<br />
+<img src="{{ "/assets/img/content/TPAT/TPAT4.png" | absolute_url }}" alt="bay" class="post-pic"/>
+<br />
+##### Test Case & Scenario
+<br />
+자동화 Test Case의 Category는 4가지로 구성한다.
+<br />
+① Platform별로 상이한 H/W기반 동작을 검증할 수 있는 Test
+<br />
+주 항목: Model인식, 인터페이스 시험, LLCF, Bypass, Watchdog
+<br />
+목적: Platform별로 상이한 H/W spec에 따른 특성 동작을 확인한다.
+<br />
+1) Platform인식
+<br />
+2) 인터페이스
+<br />
+3) Storage & Memory
+<br />
+4) H/W기반 기능인 LLCF, Bypass, Watchdog
+<br />
+② Platform별로 상이한 Software Spec을 검증할 수 있는 Test
+<br />
+주 항목: Platform별 정의된 Software capability spec검증 (Max session, Max Firewall Rule 적용 등…)
+<br />
+목적: Platform별로 Software에서 정의한 Spec의 정상 여부를 검증한다.
+<br />
+1) Platform별 최대 객체 확인
+<br />
+2) CPU affinity 검증
+<br />
+3) CPU core에 영향받는 기능과 Spec 검증
+<br />
+4) Memory에 영향받는 기능과 Spec 검증
+<br />
+
+<br />
+③ Platform별로 상이한 S/W기반 동작을 검증할 수 있는 Test 
+<br />
+주 항목: Firmware 변경, acdump 저장과 같은 debugging 지원과 Error 검출, 데몬 on off 구동
+<br />
+목적: Firmware가 변경된 경우 특정 Platform에서 장애가 발생되지 않는지 확인한다.
+<br />
+1) Firmware 변경 검증
+<br />
+2) Error 검출
+<br />
+3) Debugging 지원
+<br />
+4) 데몬 on off 구동 검증
+	
+<br />
+④ Platform별로 상이한 결과를 가져올 수 있는 Aging Test
+<br />
+주 항목: Reboot 반복 수행, Traffic 인가 등…
+<br />
+목적: H/W 및 S/W Spec과 임계치가 상이한 Platform들을 가지고 기 식별된 Aging step을 이용하여 반복 수행하고 Bug 검출 및 안정성을 확보한다.
+<br />
+1) Command 반복 수행 - 안정성
+<br />
+2) Reboot 반복 수행 - 안정성
+<br />
+3) Traffic 인가 - 안정성
+
+
