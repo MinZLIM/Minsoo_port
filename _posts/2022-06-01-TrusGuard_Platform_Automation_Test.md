@@ -17,15 +17,15 @@ og_image: /assets/img/content/post-example/Banner.jpg
     * [목표](#목표)
     * [배경](#배경)
 2. [구현과제](#구현과제)
-    * [TG Platform 별 검증 효율화를 위한 환경 구축](#TG-Platform-별-검증-효율화를-위한-환경-구축)
-    * [TG Platform 기반의 자동화 검증 환경 구축](#TG-Platform-기반의-자동화-검증-환경-구축)
+    * [TG Platform 별 검증 효율화를 위한 환경 구축](#tg-platform-별-검증-효율화를-위한-환경-구축)
+    * [TG Platform 기반의 자동화 검증 환경 구축](#tg-platform-기반의-자동화-검증-환경-구축)
 3. [물리구성](#물리구성)
     * [물리 구성 규칙](#물리-구성-규칙)
     * [물리 구성 세부 내용](#물리-구성-세부-내용)
 4. [자동화 구성](#자동화-구성)
-    * [Spec](#Spec)
-    * [Framework](#Framework)
-    * [Test Case](#Test-Case)
+    * [Spec](#spec)
+    * [Framework](#framework)
+    * [Test Case](#test-Case)
   
 #### 개요
 ##### 목표
