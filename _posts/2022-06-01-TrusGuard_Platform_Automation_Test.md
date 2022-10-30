@@ -65,6 +65,7 @@ Platform별 비교 시험과 검증이 가능한 자동화 구축 환경을 제�
 <br />
 
 ##### TG Platform 기반의 자동화 검증 환경 구축
+<br />
 Control command: ssh접속 & cli 제어
 <br />
 Programming: Python3
@@ -114,7 +115,7 @@ Trusguard ALL Line-up 대상으로 각 1대씩 구축 : 2022. 10.31   기준 25�
 <br />
   Linux Server (Worker) : 2대
 <br />
-##### T-PAT 물리 구성 규칙
+##### T-PAT 물리 구성 세부 내용
 <br />
 자동화 환경에서 Route mode, Bridge mode의 자유로운 설정이 가능한 기초 물리 구성을 한다.
 <br />
