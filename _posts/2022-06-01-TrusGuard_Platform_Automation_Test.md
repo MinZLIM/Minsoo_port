@@ -86,8 +86,8 @@ Platform 검증 Test Category 구현 계획
     ③ Platform별로 상이한 S/W기반 동작을 검증할 수 있는 Test scenario 선별
 <br />
     ④ Platform별로 상이한 결과를 가져올 수 있는 Aging Test scenario 선별 
-
 <br />
+
 #### 물리구성
 ##### T-PAT 물리 구성 규칙
 <br />
