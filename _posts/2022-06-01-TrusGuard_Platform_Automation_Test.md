@@ -25,7 +25,7 @@ og_image: /assets/img/content/post-example/Banner.jpg
 4. [자동화 구성](#자동화-구성)
     * [Spec](#spec)
     * [Framework](#framework)
-    * [Test Case](#test-Case)
+    * [Test Case](#test-case)
   
 #### 개요
 ##### 목표
