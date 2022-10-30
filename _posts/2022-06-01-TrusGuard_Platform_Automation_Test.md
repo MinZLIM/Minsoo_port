@@ -113,7 +113,7 @@ Trusguard ALL Line-up 대상으로 각 1대씩 구축 : 2022. 10.31   기준 25�
 환경구축용 Switch 1G, 10G Fiber: 1대
 <br />
 Linux Server (Worker) : 2대
-<br />
+
 ##### 물리 구성 세부 내용
 자동화 환경에서 Route mode, Bridge mode의 자유로운 설정이 가능한 기초 물리 구성을 한다.
 <br />
@@ -130,7 +130,6 @@ Switch나 TG를 control하여 Bridge mode, Route mode를 선택하여 Traffic이
 <img src="{{ "/assets/img/content/TPAT/TPAT2.png" | absolute_url }}" alt="bay" class="post-pic"/>
 <br />
 
-<br />
 #### 자동화 구성
 ##### Spec
 Trusguard 전 Platform을 지원하며 지원 가능한 TG의 Frimware는 TG2.7.3 이상으로 정의한다. (주요 유지보수 버전)
@@ -142,7 +141,7 @@ Gauge는 Python을 포함하여 다양한 언어를 지원하는 자동화 Frame
 Gauge는 테스트 케이스를 정의하고 자동으로 수행 하는 방법을 제공한다. 완성도가 높은 테스트 구문은 다른 테스트 케이스의 일부 스텝 구문으로 재활용 가능하다.
 <br />
 GoCD는 CI/CD Tool 이며, GoCD를 통해 Firmware 변경 등의 조건을 주어 CI의 적용 가능하다.
-<br />
+
 ##### Framework
 GoCD는 CI/CD Tool 이며,  아래와 같이 단일 Server와 다수의 Agent로 구성된다
 <br />
@@ -161,7 +160,7 @@ Gauge에서 작성된 Case들을 Pipeline 구조화 하여 시나리오 대로 �
 T-PAT는 다양한 Aging 검증 시나리오를 계획하고 있다. Traffic 인가 시 Docker Container를 활용하여 다양한 검증이 이루어 질 수 있도록 계획한다.
 <br />
 <img src="{{ "/assets/img/content/TPAT/TPAT4.png" | absolute_url }}" alt="bay" class="post-pic"/>
-<br />
+
 ##### Test Case & Scenario
 자동화 Test Case의 Category는 4가지로 구성한다.
 <br />
@@ -194,7 +193,7 @@ T-PAT는 다양한 Aging 검증 시나리오를 계획하고 있다. Traffic 인
 4) Memory에 영향받는 기능과 Spec 검증
 <br />
 
-<br />
+
 ③ Platform별로 상이한 S/W기반 동작을 검증할 수 있는 Test 
 <br />
 주 항목: Firmware 변경, acdump 저장과 같은 debugging 지원과 Error 검출, 데몬 on off 구동
