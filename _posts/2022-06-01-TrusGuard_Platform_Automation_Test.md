@@ -14,21 +14,21 @@ og_image: /assets/img/content/post-example/Banner.jpg
 
 #### Table of Contents
 1. [개요](#개요)
-    * [T-PAT 목표](#T-PAT-목표)
-    * [T-PAT 배경](#T-PAT-배경)
+    * [목표](#목표)
+    * [배경](#배경)
 2. [구현과제](#구현과제)
     * [TG Platform 별 검증 효율화를 위한 환경 구축](#TG-Platform-별-검증-효율화를-위한-환경-구축)
     * [TG Platform 기반의 자동화 검증 환경 구축](#TG-Platform-기반의-자동화-검증-환경-구축)
 3. [물리구성](#물리구성)
-    * [T-PAT 물리 구성 규칙](#T-PAT-물리-구성-규칙)
-    * [T-PAT 물리 구성 세부 내용](#T-PAT-물리-구성-세부-내용)
+    * [물리 구성 규칙](#물리-구성-규칙)
+    * [물리 구성 세부 내용](#물리-구성-세부-내용)
 4. [자동화 구성](#자동화-구성)
-    * [spec](#spec)
+    * [Spec](#Spec)
     * [Framework](#Framework)
     * [Test Case & Scenario](Test-Case-&-Scenario)
   
 #### 개요
-##### T-PAT 목표
+##### 목표
 Trusguard는 통합 NOS를 사용하고 있으며 CPU, Memory, Interface 등... Hardware적 구분은 NAPS와 Software적 정의를 통해 Platform 구분하고 Hardware Spec에 걸맞는 서비스를 제공하고 있다. 이에 따라 Fimeware가 신규로 제공되는 경우 전체 Platform은 영향을 받게되어 있다.
 <br />
 Firmware 변경이 발생되는 경우 Platform별 상이하게 발생될 수 있는 H/W기반 특성과 S/W특성을 사전에 검증하여 Firmware 변경 발생 시 안정적 품질의 서비스를 제공하는 것을 목표로 한다.
@@ -43,7 +43,7 @@ TrusGuard의 플랫폼 별(H/W 사양에 따른) 검증 효율화
 <br />
 
 <br />
-##### T-PAT 배경
+##### 배경
 TrusGuard는 2022년 현재 25종 (Low-end 6종, middle-end 13종, high-end 6종)의 Line-up 구성이며, 유지보수에 해당되는 제품까지 포함하여 총 25종의 platform을 지원하고 있다.
 <br />
 또한, Middle-end 이상의 제품에서는 지원되는 NIC(Network Interface Card)는 총 18종에 이른다.
@@ -89,7 +89,7 @@ Platform 검증 Test Category 구현 계획
 <br />
 
 #### 물리구성
-##### T-PAT 물리 구성 규칙
+##### 물리 구성 규칙
 <br />
 TrusGuard Line-up 중 20종 선별 및 모든 종류의 Ethernet Driver를 사용하는 환경을 구축한다.
 <br />
@@ -117,7 +117,7 @@ Trusguard ALL Line-up 대상으로 각 1대씩 구축 : 2022. 10.31   기준 25�
 <br />
 Linux Server (Worker) : 2대
 <br />
-##### T-PAT 물리 구성 세부 내용
+##### 물리 구성 세부 내용
 <br />
 자동화 환경에서 Route mode, Bridge mode의 자유로운 설정이 가능한 기초 물리 구성을 한다.
 <br />
@@ -134,7 +134,7 @@ Switch나 TG를 control하여 Bridge mode, Route mode를 선택하여 Traffic이
 <img src="{{ "/assets/img/content/TPAT/TPAT2.png" | absolute_url }}" alt="bay" class="post-pic"/>
 <br />
 #### 자동화 구성
-##### spec
+##### Spec
 <br />
 Trusguard 전 Platform을 지원하며 지원 가능한 TG의 Frimware는 TG2.7.3 이상으로 정의한다. (주요 유지보수 버전)
 <br />
@@ -146,7 +146,7 @@ Gauge는 테스트 케이스를 정의하고 자동으로 수행 하는 방법�
 <br />
 GoCD는 CI/CD Tool 이며, GoCD를 통해 Firmware 변경 등의 조건을 주어 CI의 적용 가능하다.
 <br />
-##### framework
+##### Framework
 <br />
 GoCD는 CI/CD Tool 이며,  아래와 같이 단일 Server와 다수의 Agent로 구성된다
 <br />
