@@ -1,15 +1,3 @@
-
-
-#### Table of Contents
-1. [Skills](#skills)
-2. [Specs](#specs)
-
-
-<br />
-<br />
-
----
-
 ---
 layout: certification
 title: Certification
@@ -42,7 +30,8 @@ items:
     #LEVEL: 3 (Docker를 통한 일부 서버 운영 / 사전 정의 Script 작성 / CI 활용)    
 ---
 
-#### Specs
+---
+# Specs
 - 컴활 2 급
 - 정보처리기사
 - 리눅스마스터 2 급
