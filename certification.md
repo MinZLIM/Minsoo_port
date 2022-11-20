@@ -5,8 +5,8 @@ slug: /certification
 ---
 
 #### Table of Contents
-1. [skills](#skills)
-2. [spec](#spec)
+1. [Skills](#skills)
+2. [Specs](#specs)
 
 #### skills
 ---
@@ -23,7 +23,7 @@ items:
     description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 ---
 
-#### specs
+#### Specs
 - 컴활 2 급
 - 정보처리기사
 - 리눅스마스터 2 급
