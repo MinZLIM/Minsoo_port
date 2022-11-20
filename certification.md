@@ -3,7 +3,6 @@
 1. [Skills](#skills)
 2. [Specs](#specs)
 
-#### skills
 
 <br />
 
