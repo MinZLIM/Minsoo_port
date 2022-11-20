@@ -1,7 +1,7 @@
 ---
-layout: blog
-title: Blog
-slug: /blog
+layout: Project List
+title: Project List
+slug: /Project List
 ---
 2019 ~ 2022 프로젝트, Working History
 <br />
