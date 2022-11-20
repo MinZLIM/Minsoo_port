@@ -17,7 +17,10 @@ items:
   - title: Python Script 
     image:
       src: /assets/img/work/python.png
-    description: 다수의 pyhton 환경 개발 경험 (KH-Final project: ,T-PAT: , Personal project coinbont: )
+    description: 다수의 pyhton 환경 개발 경험  
+    KH-Final project: 
+    T-PAT:  
+    Personal project coinbont: 
     
   - title: Docker 서비스 활용 능력 
     image:
