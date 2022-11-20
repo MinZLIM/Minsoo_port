@@ -1,8 +1,3 @@
----
-layout: certification
-title: Certification
-slug: /certification
----
 
 #### Table of Contents
 1. [Skills](#skills)
@@ -10,6 +5,10 @@ slug: /certification
 
 #### skills
 ---
+layout: certification
+title: Certification
+slug: /certification
+
 items:
   - title: UTM 장비 운영 및 분석
     image:
