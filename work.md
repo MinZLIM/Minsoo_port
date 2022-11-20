@@ -1,7 +1,7 @@
 ---
-layout: work
-title: Work
-slug: /work
+layout: Certification
+title: Certification
+slug: /Certification
 items:
   - title: My Interest 1
     image:
