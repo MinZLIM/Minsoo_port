@@ -34,9 +34,7 @@ items:
     image:
       src: /assets/img/work/docker.png
     description: 자동화 환경 구축운영을 위한 Docker 서비스 활용 능력 
-    #LEVEL: 3 (Docker를 통한 일부 서버 운영 / 사전 정의 Script 작성 / CI 활용)
-  
-    
+    #LEVEL: 3 (Docker를 통한 일부 서버 운영 / 사전 정의 Script 작성 / CI 활용)    
 ---
 
 #### Specs
