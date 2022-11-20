@@ -14,7 +14,6 @@ header:
     - name: Home
       slug: /
     - name: Project
-      slug: /
     - name: Certification
 
 footer:
