@@ -34,7 +34,7 @@ items:
   - title: OpenStack Cloud Server 운영
     image:
       src: /assets/img/work/openstack.png
-    description: TrusGuard 의 가상화 프로젝트 일환으로 OpenStack Xena / Yoga 환경을 우분투20.04 에서 구축 <br /> Service <br / > glance
+    description: TrusGuard 의 가상화 프로젝트 일환으로 OpenStack Xena / Yoga 환경을 우분투20.04 에서 구축 <br /> Service <br / > glance , NOVA, Neutron , Keystone , Cinder , Horizon
     
 ---
 
