@@ -11,16 +11,32 @@ slug: /certification
 #### skills
 ---
 items:
-  - title: My Interest 1
+  - title: UTM 장비 운영 및 분석
     image:
-      src: /assets/img/work/water.png
-      alt: water
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-  - title: My Interest 2
+      src: /assets/img/work/utm.png
+    description: Ahlab UTM 장비 QA 업무 수행을 통하여 FW/Proxy/NAT/VPN/ETC 운영 skill
+    LEVEL : 3 
+  - title: Server 구축 및 운영
     image:
-      src: /assets/img/work/sand.png
-      alt: sand
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+      src: /assets/img/work/server.png
+    description: 다수의 L7 응용 서버 및 인증 서버 Linux/Window 환경에서 구축 및 운영 경험
+    LEVEL: 4
+  - title: Python Script 
+    image:
+      src: /assets/img/work/python.png
+    description: 다수의 pyhton 환경 개발 경험
+    LEVEL: 4
+        - 다수의 Python 모듈 활용
+        - KH-Final project
+        - T-PAT
+        - Personal cointbot project
+  - title: Docker 서비스 활용 능력 
+    image:
+      src: /assets/img/work/docker.png
+    description: 자동화 환경 구축운영을 위한 Docker 서비스 활용 능력 
+    LEVEL: 3 (Docker를 통한 일부 서버 운영 / 사전 정의 Script 작성 / CI 활용)
+  
+    
 ---
 
 #### Specs
