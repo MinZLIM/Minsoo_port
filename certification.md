@@ -25,13 +25,12 @@ items:
   - title: Docker 서비스 활용 능력 
     image:
       src: /assets/img/work/docker.png
-    description: 자동화 환경 구축운영을 위한 Docker 서비스 활용 능력 
+    description: Docker 를 통한 일부 서버 운영 , 사전 정의 script 활용 , CI 활용 
     
   - title: Network Engineering
     image:
       src: /assets/img/work/network.png
-    description: Network Appliance 장비 QA 진행을 통하여 다양한 환경의 Network 환경 구축 및 운영 
-    LEVEL : 3  HA 환경(이중화) Proxy 및 NAT 환경 등 
+    description: Network Appliance 장비 QA 진행을 통하여 다양한 환경의 Network 환경 구축 및 운영 HA 환경(이중화) Proxy 및 NAT 환경 등 
   - title: OpenStack Cloud Server 운영
     image:
       src: /assets/img/work/openstack.png
