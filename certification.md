@@ -18,8 +18,7 @@ items:
     image:
       src: /assets/img/work/python.png
     description: 다수의 pyhton 환경 개발 경험
-    LEVEL: 4  
-    <br />- 다수의 Python 모듈 활용<br />-KH-Final project<br />- T-PAT<br />- Personal cointbot project
+    LEVEL: 4  다수의 Python 모듈 활용<br />-KH-Final project<br />- T-PAT<br />- Personal cointbot project
   - title: Docker 서비스 활용 능력 
     image:
       src: /assets/img/work/docker.png
@@ -29,12 +28,12 @@ items:
     image:
       src: /assets/img/work/network.png
     description: Network Appliance 장비 QA 진행을 통하여 다양한 환경의 Network 환경 구축 및 운영 
-    LEVEL : 3<br />-HA 환경(이중화)<br />- Proxy 및 NAT 환경 등 
+    LEVEL : 3  HA 환경(이중화)<br />- Proxy 및 NAT 환경 등 
   - title: OpenStack Cloud Server 운영
     image:
       src: /assets/img/work/openstack.png
     description: TrusGuard 의 가상화 프로젝트 일환으로 OpenStack Xena / Yoga 환경을 우분투20.04 에서 구축
-    LEVEL : 2<br />-Service : Glance, Nova , Neutron , Keystone , Cinder , Horizon
+    LEVEL : 2  Service : Glance, Nova , Neutron , Keystone , Cinder , Horizon
 ---
 
 ---
