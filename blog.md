@@ -1,7 +1,7 @@
 ---
-layout: Project List
-title: Project List
-slug: /Project List
+layout: Project
+title: Project
+slug: /Project
 ---
 2019 ~ 2022 프로젝트, Working History
 <br />
