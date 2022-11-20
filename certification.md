@@ -8,6 +8,7 @@ items:
     image:
       src: /assets/img/work/utm.png
     description: Ahlab UTM 장비 QA 업무 수행을 통하여 FW/Proxy/NAT/VPN/ETC 운영 skill
+    level: 3 
     
   - title: Server 구축 및 운영
     image:
