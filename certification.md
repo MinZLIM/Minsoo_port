@@ -6,7 +6,6 @@ slug: /certification
 
 #### Table of Contents
 1. [skills](#skills)
-<br />
 2. [spec](#spec)
 
 #### skills
