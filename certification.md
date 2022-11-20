@@ -27,7 +27,20 @@ items:
     image:
       src: /assets/img/work/docker.png
     description: 자동화 환경 구축운영을 위한 Docker 서비스 활용 능력 
-    LEVEL: 3 (Docker를 통한 일부 서버 운영 / 사전 정의 Script 작성 / CI 활용)    
+    LEVEL: 3 (Docker를 통한 일부 서버 운영 / 사전 정의 Script 작성 / CI 활용)
+  - title: Network Engineering
+    image:
+      src: /assets/img/work/network.png
+    description: Network Appliance 장비 QA 진행을 통하여 다양한 환경의 Network 환경 구축 및 운영 
+    LEVEL : 3
+       - HA 환경(이중화)
+       - Proxy 및 NAT 환경 등 
+  - title: OpenStack Cloud Server 운영
+    image:
+      src: /assets/img/work/openstack.png
+    description: TrusGuard 의 가상화 프로젝트 일환으로 OpenStack Xena / Yoga 환경을 우분투20.04 에서 구축
+    LEVEL : 2
+       - Service : Glance, Nova , Neutron , Keystone , Cinder , Horizon
 ---
 
 ---
