@@ -7,8 +7,7 @@ items:
   - title: UTM 장비 운영 및 분석
     image:
       src: /assets/img/work/utm.png
-    description: Ahlab UTM 장비 QA 업무 수행을 통하여 FW/Proxy/NAT/VPN/ETC 운영 skill
-    level: 3 
+    description: Ahlab UTM 장비 QA 업무 수행을 통하여 FW/Proxy/NAT/VPN/ETC 운영 skill 
     
   - title: Server 구축 및 운영
     image:
@@ -18,7 +17,7 @@ items:
   - title: Python Script 
     image:
       src: /assets/img/work/python.png
-    description: 다수의 pyhton 환경 개발 경험
+    description: 다수의 pyhton 환경 개발 경험 (KH-Final project: ,T-PAT: , Personal project coinbont: )
     
   - title: Docker 서비스 활용 능력 
     image:
