@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: blog
+title: Blog
 slug: /blog
 ---
 2019 ~ 2022 프로젝트, Working History
