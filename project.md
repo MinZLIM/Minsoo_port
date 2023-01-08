@@ -3,7 +3,7 @@ layout: project
 title: Project
 slug: /project
 ---
-2019 ~ 2022 프로젝트, Working History
+프로젝트, Working History
 <br />
 
 ------
