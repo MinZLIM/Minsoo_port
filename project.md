@@ -12,6 +12,7 @@ slug: /project
 <br />
 
 **IOT** , **Aduino** , **Bluetooth** , **Python3** 
+
 ------
 
 2018.08 - RFID 논문(전자파 학술 대회) [RFID를 이용한 그래픽 표현 도서 검색 시스템](https://1drv.ms/p/s!Aj3nsRarR3tw011hJZ8Id88aUCv4?e=aV7wND)
