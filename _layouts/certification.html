@@ -12,11 +12,10 @@
           {{ content }}
 
           {% for item in page.items %}
-          <div class="work-item">
+          <div class="certification-item">
             <img
               src="{{ item.image.src | absolute_url }}"
-              alt="{{ item.image.alt }}"
-              class="work-bubble"
+              class="certification-bubble"
             />
             <span class="work-text">
               <strong>{{ item.title }}</strong>
