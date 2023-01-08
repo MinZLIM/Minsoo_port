@@ -39,12 +39,13 @@ items:
 ---
 
 ---
-# Specs
+# Certification
 - 컴활 2 급
 - 정보처리기사
 - 리눅스마스터 2 급
 - 정보보안기사
 
+<br />
 
-<br />
-<br />
+---
+# Skill Set
