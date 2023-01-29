@@ -74,7 +74,7 @@ slug: /project
 
 2021.12 - Upbit Coint Bot Project (Personal) [Minsoo Coinbot](https://github.com/MinZLIM/minsoo_coinbot)
 <br />
--개인 프로텍트로 업비트에서 제공하는 Rest API,webSocket 을 활용하여 코인 자동 매수/매도 프로그램을 작성. 차트 분석 지표인 Stocastic , RSI , MACD, etc 을 활용하여 구축.
+-개인 프로텍트로 업비트에서 제공하는 Rest API,webSocket 을 활용하여 코인 자동 매수/매도 프로그램을 작성. 차트 분석 지표인 Stocastic , RSI , MACD, etc 을 활용하여 구축하였으며 이동평균선을 기준으로 매도가 설정 , Websocket 을 통해 실시간으로 매수한 코인의 현재가를 확인하여 설정된 손절가에서 매도 수행. 
 <br />
 
 ------
