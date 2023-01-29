@@ -20,9 +20,9 @@ items:
     image:
       src: /assets/img/work/python.png
     description: 다수의 pyhton 환경 개발 경험
-    Project1: KH-Final project:
-    Project2: T-PAT:
-    Project3: Personal project coinbot: 
+    Project1: KH-Final project
+    Project2: T-PAT
+    Project3: Personal project coinbot 
     level: Level 4
 
   - title: Docker 서비스 활용 능력 
