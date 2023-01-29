@@ -17,7 +17,7 @@ items:
   - title: Python Script 
     image:
       src: /assets/img/work/python.png
-    description: 다수의 python3 환경 개발 경험 <br /> ***Level 4*** 
+    description: 다수의 python3 환경 개발 경험 <br /> Level 4 
     
   - title: Docker 서비스 활용 능력 
     image:
