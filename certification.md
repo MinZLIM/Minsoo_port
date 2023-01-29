@@ -49,7 +49,8 @@ items:
 - 정보보안기사
 
 ---
-# Skill Set
+#### Skill Set Notice
+
 [^Level 1]: 미숙 , 추가 리서치 및 활용 터득 필요.
 <br />
 [^Level 2]: 개념 및 기능은 이해한 상태이나 활용 및 숙달이 필요.
