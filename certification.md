@@ -56,3 +56,10 @@ items:
 ###### Level 3: 독자적으로 활용 프로텍트 수행 가능. 
 ###### Level 4: 고도화 작업을 통해 프로젝트에 적용 가능.
 ###### Level 5: 하위 기능간의 호환성 이해 및 Leading 가능. 
+
+
+---
+image test
+image:
+      src: /assets/img/work/openstack.png
+글자가 옆으로 표현되는지
