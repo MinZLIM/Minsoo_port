@@ -6,8 +6,8 @@ slug: /certification
 items:
   - title: UTM 장비 운영 및 분석
     image:
-      src:/assets/img/work/utm.png
-    description:Ahlab UTM 장비 QA 업무 수행을 통하여 FW/Proxy/NAT/VPN/ETC 운영 skill 
+      src: /assets/img/work/utm.png
+    description: Ahlab UTM 장비 QA 업무 수행을 통하여 FW/Proxy/NAT/VPN/ETC 운영 skill 
     <br />
     **Level : 4**
     
@@ -62,8 +62,6 @@ items:
 - 정보처리기사
 - 리눅스마스터 2 급
 - 정보보안기사
-
-<br />
 
 ---
 # Skill Set
