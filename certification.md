@@ -7,14 +7,14 @@ items:
   - title: UTM 장비 운영 및 분석
     image:
       src: /assets/img/work/utm.png
-    description: Ahlab UTM 장비 QA 업무 수행을 통하여 FW/Proxy/NAT/VPN/ETC 운영 skill 
+    description:Ahlab UTM 장비 QA 업무 수행을 통하여 FW/Proxy/NAT/VPN/ETC 운영 skill 
     <br />
     **Level : 4**
     
   - title: Server 구축 및 운영
     image:
       src: /assets/img/work/server.png
-    description: 다수의 L7 응용 서버 및 인증 서버 Linux/Window 환경에서 구축 및 운영 경험
+    description:'다수의 L7 응용 서버 및 인증 서버 Linux/Window 환경에서 구축 및 운영 경험'
     <br />
     **Level : 4**
     
