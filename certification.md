@@ -17,10 +17,7 @@ items:
   - title: Python Script 
     image:
       src: /assets/img/work/python.png
-    description: 다수의 python3 환경 개발 경험 <br /> Level 4
-    project:
-      project1: https://minzlim.github.io/Minsoo_port/2020/06/01/TrusGuard_Platform_Automation_Test
-      project2: [KH Final Project]
+    description: 다수의 python3 환경 개발 경험 <br /> Level 4 <br /> [TPAT](https://minzlim.github.io/Minsoo_port/2020/06/01/TrusGuard_Platform_Automation_Test)
 
   - title: Docker 서비스 활용 능력 
     image:
