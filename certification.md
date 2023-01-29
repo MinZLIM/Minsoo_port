@@ -7,7 +7,7 @@ items:
   - title: UTM 장비 운영 및 분석
     image:
       src: /assets/img/work/utm.png
-    description: Ahlab UTM 장비 QA 업무 수행을 통하여 FW/Proxy/NAT/VPN/ETC 운영 skill
+    description: Ahlab UTM 장비 QA 업무 수행을 통하여 FW/Proxy/NAT/VPN/ETC 운영 skill  level: 4
     
   - title: Server 구축 및 운영
     image:
@@ -50,7 +50,7 @@ items:
 
 ---
 #### Skill Set Notice
-###### Level: 미숙, 추가 리서치 및 활용 터득 필요.
+###### Level 1: 미숙, 추가 리서치 및 활용 터득 필요.
 ###### Level 2: 개념 및 기능은 이해한 상태이나 활용 및 숙달이 필요.
 ###### Level 3: 독자적으로 활용 프로텍트 수행 가능. 
 ###### Level 4: 고도화 작업을 통해 프로젝트에 적용 가능.
