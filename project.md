@@ -47,7 +47,7 @@ slug: /project
 
 2019.09 - TMS QA 입사 (Ahnlab)
 <br />
--TMS(Threat Management System) 제품의 QA로 입사 Poilicy Manager 와 TM 기능에 대한 검증 수행. IXIA Packet Generator , TrusGuard , DPX , AIPS , etc 연동 제품에 대한 연계 테스트 수행
+-TMS(Threat Management System) 제품의 QA로 입사 Policy Manager 와 TM 기능에 대한 검증 수행. IXIA Packet Generator , TrusGuard , DPX , AIPS , etc 연동 제품에 대한 연계 테스트 수행
 <br />
 
 ------
