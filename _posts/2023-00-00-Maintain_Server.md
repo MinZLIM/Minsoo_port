@@ -5,8 +5,6 @@ date:   2019-10-26 10:00:40
 blurb: "A look at an example post using Bay Jekyll theme."
 og_image: /assets/img/content/post-example/Banner.jpg
 ---
-
-<img src="{{ "/assets/img/content/post-example/Banner.jpg" | absolute_url }}" alt="bay" class="post-pic"/>
 <br />
 <br />
 
@@ -69,7 +67,6 @@ TrusGuard 의 Content Filter 기능을 QA 하기 위해서는 다양한 조건�
  xxx
 <br />
 
-<img src="{{ "/assets/img/content/post-example/Banner.jpg" | absolute_url }}" alt="bay" class="post-pic"/>
 ##### FOOTNOTES
 
 [^1]: This is a note!
