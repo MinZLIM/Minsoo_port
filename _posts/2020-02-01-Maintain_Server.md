@@ -1,5 +1,5 @@
 ---
-layout: postㄴ
+layout: post
 title:  "Maintain Server info"
 date:   2020-02-01 24:00:00
 blurb: "A look at an example post using Bay Jekyll theme."
