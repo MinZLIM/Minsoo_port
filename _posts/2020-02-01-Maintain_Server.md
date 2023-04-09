@@ -84,7 +84,7 @@ TrusGuard 의 Content Filter 기능을 QA 하기 위해서는 다양한 조건�
  TrusGuard 의 Cloud 가상화 도입에 의하여 vTG 로 네이밍 되어 AWS, NHN cloud ,KaKao icoud , Naver cloud 에 입점되었다. 네트워크 QA 팀에서는 각 CSP 에서 vTG 인스턴스를 생성하며 테스트를 진행하고 있으며 해당 CSP 의 사용에 제약이 있을 시 대안을 위해 Openstack 클라우드 환경을 필요로 하게 되었다. 
 
 ##### 운영환경
- TrusGuard 10000B 플랫폼을 개조하여 우분투20.04 를 설치하였으며 OpenStack 버전은 Zena 를 사용한다. 
+ TrusGuard 10000B 플랫폼을 개조하여 우분투20.04 를 설치하였으며 OpenStack 버전은 Xena 를 사용한다. 
  현재 추가적인 애플리케이션 운영은 필요하지 않아 기본 Starter Pack 으로 구축되었다.(+Horizon)
 <br />
 <img src="{{ "/assets/img/work/openstack_starter.png" | absolute_url }}" alt="bay" class="post-pic"/>
