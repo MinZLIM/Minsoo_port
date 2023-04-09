@@ -54,7 +54,7 @@ slug: /project
 
 **#Proxy** , **#Server Engineering** , **#Security** 
 
-2020.02 - TrusGuard QA_ Content Filter , System 기능 담당 변경 (Ahnlab)
+2020.02 - TrusGuard QA_ Content Filter , System 기능 담당 변경 (Ahnlab) [TrusGuard QA](https://minzlim.github.io/Minsoo_port/2020/02/04/Ahnlab_QA)
 <br />
 -TrusGuard 의 ContentFilter , System 기능 QA 담당으로 AntiVirus , Malware Detection , Antispam , etc 테스트 하였으며 다수의 L7 서버 운영 (WEB ,DNS , SMTP, POP3 _ SSL , etc)
 <br />
@@ -81,7 +81,7 @@ slug: /project
 
 **#OpenStack** 
 
-2022.06 - vTG Project With OpenStack(Ahnlab)
+2022.06 - vTG Project With OpenStack(Ahnlab) [Maintain Server info](https://minzlim.github.io/Minsoo_port/2020/02/02/Maintain_Server)
 <br />
 -클라우드 기반 vTG 프로젝트를 진행하였으며 테스트 환경 구축을 위해 OpenStack(Xena)를 활용. OpenStack 에는 Glance , Keystone , Horizon, Cinder , Nova, Neutron 서비스 구동하여 진행.
 <br />
@@ -90,7 +90,7 @@ slug: /project
 
 **#Netowrk** , **#Security**
 
-2022.08 - TrusGuard QA_Object , Policy 기능 담당 변경 (Ahnlab)
+2022.08 - TrusGuard QA_Object , Policy 기능 담당 변경 (Ahnlab) [TrusGuard QA](https://minzlim.github.io/Minsoo_port/2020/02/04/Ahnlab_QA)
 <br />
 -TrusGuard 의 Policy , Object 기능 QA 담당으로 White/Black List , Geoip Block , Auth rule, QOS/FQDN , etc 테스트 수행하며 다수의 Auth 서버 운영(LDAP,MSSQL,RADIUS,etc)
 <br />
