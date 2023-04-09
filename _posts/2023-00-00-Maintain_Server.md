@@ -37,6 +37,7 @@ TrusGuard 의 Content Filter 기능을 QA 하기 위해서는 다양한 조건�
  윈도우 2019 의 겨웅 XXXX 를 사용하였으며 Centos7 의 경우 Apache2 와 PHP 를 연동하여 파일 업로드 / 다운로드가 가능하게 구축하였다. 
  
 <br />
+
 ##### MAIL Server
  웹 서버와 마찬가지로 운영체제는 윈도우 2019 서버와 Centos7 을 사용하여 구축하였다. 
  윈도우 2019 에서는 Simple EmailSender 를 사용하여 smtp 와 pop3 를 사용하였다. 
@@ -44,9 +45,12 @@ TrusGuard 의 Content Filter 기능을 QA 하기 위해서는 다양한 조건�
  sasl 인증여부에 따라 XXX 되는 이슈가 있어 해당 이슈 확인을 위해 SASL 설정을 ON 시키며 구동하고 있다. 
 
 <br />
+
 ##### FTP Server
  FTP 서버의 경우 window 10 환경과 , Centos7 환경을 사용하여 구축하였다. 
  Window 10 환경에서는 FileZilla 를 사용하여 FTP , FTPS 를 사용할 수 있으며 , Centos7 은 vsftpd 를 통해서 FTP 서버를 구축하였다. 
+
+<br />
 
 #### Auth Server 
  TrusGuard 의 사용자 인증 기능을 사용하기 위해서 다양한 인증서버 운영을 필요로 하여 docker 와 vm 환경을 통해 인증서버를 구축하였다. 
