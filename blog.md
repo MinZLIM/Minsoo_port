@@ -34,7 +34,7 @@ slug: /blog
 <br />
 -Platform Automaion Test 를 진행 Python 에서 Gauge 기반으로 스크립트를 작성하며, CICD 로 GOCD 를 활용. 
 <br />
-2021.12 - Upbit Coint Bot Project (Personal)
+2021.12 - Upbit Coint Bot Project (Personal)[Upbit Coin bot](https://github.com/MinZLIM/minsoo_coinbot)
 <br />
 -개인 프로텍트로 업비트에서 제공하는 Rest API,webSocket 을 활용하여 코인 자동 매수/매도 프로그램을 작성. 차트 분석 지표인 Stocastic , RSI , MACD, etc 을 활용하여 구축.
 <br />
