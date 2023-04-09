@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: postㄴ
 title:  "Maintain Server info"
 date:   2020-02-01 24:00:00
 blurb: "A look at an example post using Bay Jekyll theme."
@@ -85,24 +85,30 @@ TrusGuard 의 Content Filter 기능을 QA 하기 위해서는 다양한 조건�
 
 ##### 운영환경
  TrusGuard 10000B 플랫폼을 개조하여 우분투20.04 를 설치하였으며 OpenStack 버전은 Zena 를 사용한다. 
- 현재 추가적인 애플리케이션 운영은 필요하지 않아 기본 Starter Pack 으로 구축되었다.
+ 현재 추가적인 애플리케이션 운영은 필요하지 않아 기본 Starter Pack 으로 구축되었다.(+Horizon)
 <br />
 <img src="{{ "/assets/img/work/openstack_starter.png" | absolute_url }}" alt="bay" class="post-pic"/>
 
 
 ##### KeyStone
+ OpenStack 에서 인증을 담당하는 서비스.
 <br />
 
 ##### Nova
+ 컴퓨팅 기능을 담당하는 서비스 
 <br />
 
 ##### Neutron
+ 네트워크 기능을 담당하는 서비스
 <br />
 
 ##### Glance
+ 가상 시스템 이미지 구축 서비스
 <br />
 
 ##### Cinder
+ 볼륨 관리 서비스
 <br />
 
 ##### Horizon
+ ui 표시 서비스
