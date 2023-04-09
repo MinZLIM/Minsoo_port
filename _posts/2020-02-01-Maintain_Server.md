@@ -26,12 +26,12 @@ og_image: /assets/img/content/post-example/Banner.jpg
     * [TACAS+](#tacas+)
 3. [OpenStack](#openstack)
     * [운영환경](#운영환경)
-    * KeyStone(#keystone)
-    * Nova(#nova)
-    * Neutron(#neutron)
-    * Glance(#glance)
-    * Cinder(#cinder)
-    * Horizon(#horizon)
+    * [KeyStone](#keystone)
+    * [Nova](#nova)
+    * [Neutron](#neutron)
+    * [Glance](#glance)
+    * [Cinder](#cinder)
+    * [Horizon](#horizon)
 
 #### L7 Server List
 TrusGuard 의 Content Filter 기능을 QA 하기 위해서는 다양한 조건의 L7 프로토콜에 대한 지식 및 운영 환경이 필요하며 담당기능 진행간 하기의 환경에서 QA 를 진행하였음. 
