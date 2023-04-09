@@ -85,13 +85,13 @@ TrusGuard 의 Content Filter 기능을 QA 하기 위해서는 다양한 조건�
 
 ##### 운영환경
  TrusGuard 10000B 플랫폼을 개조하여 우분투20.04 를 설치하였으며 OpenStack 버전은 Zena 를 사용한다. 
- 현재 추가적인 애플리케이션 운영은 필요하지 않아 기본 Starter Pack 으로 구축되었다. 
+ 현재 추가적인 애플리케이션 운영은 필요하지 않아 기본 Starter Pack 으로 구축되었다.
+ <img src="{{ "/assets/img/work/openstack_starter.png" | absolute_url }}" alt="bay" class="post-pic"/>
 
 
-
-* KeyStone(#keystone)
-    * Nova(#nova)
-    * Neutron(#neutron)
-    * Glance(#glance)
-    * Cinder(#cinder)
-    * Horizon(#horizon)
+##### KeyStone
+##### Nova
+##### Neutron
+##### Glance
+##### Cinder
+##### Horizon
