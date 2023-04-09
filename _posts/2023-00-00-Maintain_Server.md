@@ -10,9 +10,6 @@ og_image: /assets/img/content/post-example/Banner.jpg
 <br />
 <br />
 
-This is an example of blog post.
-Picture by [Bethany Legg](https://unsplash.com/@bkotynski).
-
 
 본 장에서는 Network QA 업무 지행 및 개인프로젝트 진행 중 지속적인 유지보수가 필요한 사항들에 대해서 관리한다. 
 
