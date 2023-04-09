@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Maintain Server info"
-date:   2023-12-31 24:00:00
+date:   2020-02-01 24:00:00
 blurb: "A look at an example post using Bay Jekyll theme."
 og_image: /assets/img/content/post-example/Banner.jpg
 ---
