@@ -9,7 +9,7 @@ og_image: /assets/img/content/post-example/Banner.jpg
 <br />
 
 
-본 장에서는 Network QA 업무 지행 및 개인프로젝트 진행 중 지속적인 유지보수가 필요한 사항들에 대해서 관리한다. 
+본 장에서는 Network QA 업무 지행 및 개인프로젝트 진행 중 지속적인 유지보수가 필요한 사항들에 대해서 관리한다.
 
 <br />
 
@@ -24,6 +24,14 @@ og_image: /assets/img/content/post-example/Banner.jpg
     * [RADIUS](#radius)
     * [LDAP](#ldap)
     * [TACAS+](#tacas+)
+3. [OpenStack](#openstack)
+    * [운영환경](#운영환경)
+    * KeyStone(#keystone)
+    * Nova(#nova)
+    * Neutron(#neutron)
+    * Glance(#glance)
+    * Cinder(#cinder)
+    * Horizon(#horizon)
 
 #### L7 Server List
 TrusGuard 의 Content Filter 기능을 QA 하기 위해서는 다양한 조건의 L7 프로토콜에 대한 지식 및 운영 환경이 필요하며 담당기능 진행간 하기의 환경에서 QA 를 진행하였음. 
@@ -72,6 +80,18 @@ TrusGuard 의 Content Filter 기능을 QA 하기 위해서는 다양한 조건�
  xxx
 <br />
 
-##### FOOTNOTES
+#### Openstack
+ TrusGuard 의 Cloud 가상화 도입에 의하여 vTG 로 네이밍 되어 AWS, NHN cloud ,KaKao icoud , Naver cloud 에 입점되었다. 네트워크 QA 팀에서는 각 CSP 에서 vTG 인스턴스를 생성하며 테스트를 진행하고 있으며 해당 CSP 의 사용에 제약이 있을 시 대안을 위해 Openstack 클라우드 환경을 필요로 하게 되었다. 
 
-[^1]: This is a note!
+##### 운영환경
+ TrusGuard 10000B 플랫폼을 개조하여 우분투20.04 를 설치하였으며 OpenStack 버전은 Zena 를 사용한다. 
+ 현재 추가적인 애플리케이션 운영은 필요하지 않아 기본 Starter Pack 으로 구축되었다. 
+
+
+
+* KeyStone(#keystone)
+    * Nova(#nova)
+    * Neutron(#neutron)
+    * Glance(#glance)
+    * Cinder(#cinder)
+    * Horizon(#horizon)
