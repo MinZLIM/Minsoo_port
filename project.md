@@ -7,20 +7,12 @@ slug: /project
 <br />
 
 ------
-**#IOT** , **#Aduino** , **#MIT APP Inventor** 
 
-2017.09 - 캡스톤 디자인 프로젝트(조선대학교) [Automatic pill dispenser](https://1drv.ms/p/s!Aj3nsRarR3twh26VWGmkwj183af6?e=JiV6sC)
+**#Netowrk** , **#Security**
+
+2022.08 - TrusGuard QA_Object , Policy 기능 담당 변경 (Ahnlab) [TrusGuard QA](https://minzlim.github.io/Minsoo_port/2020/02/04/Ahnlab_QA)
 <br />
--조선대 교과목인 캐스톤 디자인으로 많은 종류의 약을 섭취하는 환자 및 노약자들이 좀 더 쉽고 편하게 약을 섭취 할 수 있도록 하는 아이디어로 핸드폰과 기기(아두이노)를 블루투스 통신으로 연결 후 사용자가 핸드폰에 먹어야할 약의 종류 및 갯수를 시간을 지정하여 입력 하면 그 값을 저장 했다가 해당 시간에 알람이 울리며 알약이 지정한 약이 나온다. 본인은 프로젝트의 애플리케이션 제작과 아두이노 코딩 및 하드웨어 제작을 하였다.
-<br />
-
-------
-
-**#RFID** , **#라즈베리파이**
-
-2018.08 - RFID 논문(전자파 학술 대회) [RFID를 이용한 그래픽 표현 도서 검색 시스템](https://1drv.ms/p/s!Aj3nsRarR3tw011hJZ8Id88aUCv4?e=aV7wND)
-<br />
--이 시스템은 책을 관리하는 도서관 및 각종 도서를 관리하는 시설에서 고객 및 이용자가 보다 쉽고 편리하게 원하는 도서를 찾기 위한 방법이다. 사용자가 단말기 및 시설에 배치된 컴퓨터를 통해 도서를 검색하면 기존의 문자 형식으로 도서의 식별 번호를 나타내는 방법이 아닌 찾고자 하는 도서의 UID코드를 인식한, 리더기의 위치를 그래픽으로 보여준다
+-TrusGuard 의 Policy , Object 기능 QA 담당으로 White/Black List , Geoip Block , Auth rule, QOS/FQDN , etc 테스트 수행하며 다수의 Auth 서버 운영(LDAP,MSSQL,RADIUS,etc)
 <br />
 
 ------
@@ -88,10 +80,20 @@ slug: /project
 
 ------
 
-**#Netowrk** , **#Security**
+**#IOT** , **#Aduino** , **#MIT APP Inventor** 
 
-2022.08 - TrusGuard QA_Object , Policy 기능 담당 변경 (Ahnlab) [TrusGuard QA](https://minzlim.github.io/Minsoo_port/2020/02/04/Ahnlab_QA)
+2017.09 - 캡스톤 디자인 프로젝트(조선대학교) [Automatic pill dispenser](https://1drv.ms/p/s!Aj3nsRarR3twh26VWGmkwj183af6?e=JiV6sC)
 <br />
--TrusGuard 의 Policy , Object 기능 QA 담당으로 White/Black List , Geoip Block , Auth rule, QOS/FQDN , etc 테스트 수행하며 다수의 Auth 서버 운영(LDAP,MSSQL,RADIUS,etc)
+-조선대 교과목인 캐스톤 디자인으로 많은 종류의 약을 섭취하는 환자 및 노약자들이 좀 더 쉽고 편하게 약을 섭취 할 수 있도록 하는 아이디어로 핸드폰과 기기(아두이노)를 블루투스 통신으로 연결 후 사용자가 핸드폰에 먹어야할 약의 종류 및 갯수를 시간을 지정하여 입력 하면 그 값을 저장 했다가 해당 시간에 알람이 울리며 알약이 지정한 약이 나온다. 본인은 프로젝트의 애플리케이션 제작과 아두이노 코딩 및 하드웨어 제작을 하였다.
 <br />
 
+------
+
+**#RFID** , **#라즈베리파이**
+
+2018.08 - RFID 논문(전자파 학술 대회) [RFID를 이용한 그래픽 표현 도서 검색 시스템](https://1drv.ms/p/s!Aj3nsRarR3tw011hJZ8Id88aUCv4?e=aV7wND)
+<br />
+-이 시스템은 책을 관리하는 도서관 및 각종 도서를 관리하는 시설에서 고객 및 이용자가 보다 쉽고 편리하게 원하는 도서를 찾기 위한 방법이다. 사용자가 단말기 및 시설에 배치된 컴퓨터를 통해 도서를 검색하면 기존의 문자 형식으로 도서의 식별 번호를 나타내는 방법이 아닌 찾고자 하는 도서의 UID코드를 인식한, 리더기의 위치를 그래픽으로 보여준다
+<br />
+
+------
