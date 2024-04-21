@@ -34,22 +34,23 @@ og_image: /assets/img/content/post-example/Banner.jpg
     * [Horizon](#horizon)
 
 ## Content Server List
-TrusGuard 의 Content Filter 기능을 QA 하기 위해서는 다양한 조건의 L7 프로토콜에 대한 지식 및 운영 환경이 필요하며 담당기능 진행간 하기의 환경에서 QA 를 진행하였음. 
+TrusGuard 의 프로토콜 별 트래픽 기능을 검증하기 위해서는 다양한 조건의 L7 프로토콜에 대한 지식 및 운영 환경이 필요하며 담당기능 진행간 하기의 환경에서 QA 를 진행하였음. 
 
 <br />
 
 ### Web Server
 #### 서버 구동 정보
+
 | OS | Tool |
 |---|---|
-|Window Server 2019|IIS|  
+|Window Server 2019|IIS|
 |Centos7|apache2|
 
 #### TrusGuard 검증 기능
 
 | 기능 | 상세 기능 |
 |---|---|
-|Object|Service| 
+|Object|Service|
 |Policy|Firewall , NAT , Blacklist , White List| 
 |Content Filter|Webfilter , Antivirus, mal site, C&C, etc|
 
