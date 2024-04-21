@@ -8,13 +8,6 @@ og_image: /assets/img/content/post-example/Banner.jpg
 <br />
 <br />
 
-<table>
-  <tr>
-    <th style="background-color:blue">os</th>
-    <th style="background-color:blue">Tool</th>
-  </tr>
-</table>
-
 본 장에서는 Network QA 업무 지행 및 개인프로젝트 진행 중 지속적인 유지보수가 필요한 사항들에 대해서 관리한다.
 
 <br />
@@ -22,10 +15,6 @@ og_image: /assets/img/content/post-example/Banner.jpg
 
 ## Table of Contents
 1. [Content Server List](#content-server-list)
-    * [Web Server](#web-server)
-    * [MAIL Server](#mail-server)
-    * [FTP Server](#ftp-server)
-    * [DNS Server](#dns-server)
 2. [Auth Server](#auth-server)
     * [RADIUS](#radius)
     * [LDAP](#ldap)
@@ -40,61 +29,60 @@ og_image: /assets/img/content/post-example/Banner.jpg
     * [Horizon](#horizon)
 
 ## Content Server List
-TrusGuard 의 프로토콜 별 트래픽 기능을 검증하기 위해서는 다양한 조건의 L7 프로토콜에 대한 지식 및 운영 환경이 필요하며 담당기능 진행간 하기의 환경에서 QA 를 진행하였음. 
+TrusGuard 의 프로토콜 별 트래픽 기능을 검증하기 위해서는 다양한 조건의 L7 프로토콜에 대한 지식 및 운영 환경이 필요하며 담당기능 진행간 하기의 환경에서 QA 를 진행하였음.
+검증 기능
+ > Object : Service , 사용자 인증 객체
+ > FIrewall : Policy , Auth Policy , NAT , Blacklist , WhiteList
+ > Content Filter : Webfilter , Antivirus, mal site, C&C, etc
 
-<br />
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+    th, td {
+      border: 1px solid black; /* 표 선을 검정색으로 설정 */
+      padding: 8px;
+      text-align: left;
+    }
+    th {
+      background-color: #f2f2f2; /* 표 헤더 배경색 */
+    }
+  </style>
+</head>
+<body>
 
-### Web Server
-#### 서버 구동 정보
+<table>
+  <tr>
+    <th>Protocol</th>
+    <th>OS</th>
+    <th>Tool</th>
+  </tr>
+  <tr>
+    <td>HTTP Server</td>
+    <td>Window Server2019 VM, Centos7 VM</td>
+    <td>IIS,Apache2</td>
+  </tr>
+  <tr>
+    <td>SMTP,POP3</td>
+    <td>Window Server2019 VM, Centos7 VM</td>
+    <td>Simple Email Sender , Postfix,dovecot</td>
+  </tr>
+    <tr>
+    <td>FTP</td>
+    <td>Window 10 Enterprise, Centos7 VM</td>
+    <td>FileZilla, vsftpd</td>
+  </tr>
+</table>
 
-| OS | Tool |
-|---|---|
-|Window Server 2019|IIS|
-|Centos7|apache2|
-
-#### TrusGuard 검증 기능
-
-| 기능 | 상세 기능 |
-|---|---|
-|Object|Service|
-|Policy|Firewall , NAT , Blacklist , White List| 
-|Content Filter|Webfilter , Antivirus, mal site, C&C, etc|
-
-<br />
-
-### MAIL Server(SMTP,POP3)
-#### 서버 구동 정보
-|OS |Tool|
-|---|---|
-|Window Server 2019|Simple Email Sender|  
-|Centos 7|postfix, dovecot|
-
-
-#### TrusGuard 검증 기능
-|기능 | 상세 기능|   
-|---|---|
-| Object|Service| 
-| Policy |Firewall , NAT , Blacklist , White List| 
-| Content Filter  |Webfilter , Antivirus, mal site, C&C, etc|
- 
-
-<br />
-
-### FTP Server
-#### 서버 구동 정보
-|OS |Tool|
-|---|---|
-|Window10 Enterprise|FileZilla|  
-|Centos 7|vsftpd|
+</body>
+</html>
 
 
-#### TrusGuard 검증 기능
-|기능 | 상세 기능|   
-|---|---|
-| Object|Service| 
-| Policy |Firewall , NAT , Blacklist , White List| 
-| Content Filter  |Webfilter , Antivirus, mal site, etc|
- 
+
 <br />
 
 ## Auth Server 
