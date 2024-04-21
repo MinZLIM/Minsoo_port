@@ -31,10 +31,11 @@ og_image: /assets/img/content/post-example/Banner.jpg
 ## Content Server List
 TrusGuard 의 프로토콜 별 트래픽 기능을 검증하기 위해서는 다양한 조건의 L7 프로토콜에 대한 지식 및 운영 환경이 필요하며 담당기능 진행간 하기의 환경에서 QA 를 진행하였음.
 검증 기능
- > Object : Service , 사용자 인증 객체 <br />
- > FIrewall : Policy , Auth Policy , NAT , Blacklist , WhiteList <br />
+ > Object : Service <br />
+ > FIrewall : Policy , NAT , Blacklist , WhiteList <br />
  > Content Filter : Webfilter , Antivirus, mal site, C&C, etc
 
+### Server env
 <table>
   <tr>
     <th>Protocol</th>
@@ -42,7 +43,7 @@ TrusGuard 의 프로토콜 별 트래픽 기능을 검증하기 위해서는 다
     <th>Tool</th>
   </tr>
   <tr>
-    <td>HTTP Server</td>
+    <td>HTTP </td>
     <td>Window Server2019 VM, Centos7 VM</td>
     <td>IIS,Apache2</td>
   </tr>
@@ -63,53 +64,37 @@ TrusGuard 의 프로토콜 별 트래픽 기능을 검증하기 위해서는 다
 <br />
 
 ## Auth Server 
- TrusGuard 의 사용자 인증 기능을 사용하기 위해서 다양한 인증서버 운영을 필요로 하여 docker 와 vm 환경을 통해 인증서버를 구축하였다. 
+ TrusGuard 의 사용자 및 관리자 인증 기능을 사용하기 위해서 다양한 인증서버 운영을 필요로 하여 docker 와 vm 환경을 통해 인증서버를 구축하였다. 
+검증 기능
+ > Object : 사용자 인증 객체 <br />
+ > FIrewall : Auth Policy  <br />
+ > System : admin Auth
 
-<br />
-
-### RADIUS
-#### 서버 구동 정보
-|OS |Tool|
-|---|---|
-|Centos 7 Docker||
-
-
-#### TrusGuard 검증 기능
-|기능 | 상세 기능|   
-|---|---|
-| Object|User id| 
-| Policy |Auth Policy| 
-| System |Admin auth|
-<br />
-
-### ldap
-#### 서버 구동 정보
-|OS |Tool|
-|---|---|
-|Centos 7|slapd|
-
-#### TrusGuard 검증 기능
-|기능 | 상세 기능|   
-|---|---|
-| Object|User id| 
-| Policy |Auth Policy| 
-| System |Admin auth|
-<br />
-
-### tacas+
-#### 서버 구동 정보
-|OS |Tool|
-|---|---|
-|Centos 7 Docker||
+### Server env
+<table>
+  <tr>
+    <th>Protocol</th>
+    <th>OS</th>
+    <th>Tool</th>
+  </tr>
+  <tr>
+    <td>Radius</td>
+    <td>Centos7 Docker image</td>
+    <td>RADIUS</td>
+  </tr>
+  <tr>
+    <td>LDAP</td>
+    <td>Centos7 VM</td>
+    <td>Slapd</td>
+  </tr>
+    <tr>
+    <td>tacas+</td>
+    <td>Centos7 Docker image</td>
+    <td></td>
+  </tr>
+</table>
 
 
-#### TrusGuard 검증 기능
-|기능 | 상세 기능|   
-|---|---|
-| Object|User id| 
-| Policy |Auth Policy| 
-| System |Admin auth|
-<br />
 
 ## Openstack
  TrusGuard 의 Cloud 가상화 도입에 의하여 vTG 로 네이밍 되어 AWS, NHN cloud ,KaKao icoud , Naver cloud 에 입점되었다. 네트워크 QA 팀에서는 각 CSP 에서 vTG 인스턴스를 생성하며 테스트를 진행하고 있으며 해당 CSP 의 사용에 제약이 있을 시 대안을 위해 Openstack 클라우드 환경을 필요로 하게 되었다. 
