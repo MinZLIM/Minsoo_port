@@ -42,16 +42,16 @@ TrusGuard 의 Content Filter 기능을 QA 하기 위해서는 다양한 조건�
 #### 서버 구동 정보
 |OS |Tool|   
 |---|---|
-| Window Server 2016|  IIS|  
-| Centos 7 | apache2|
+|Window Server 2016|IIS|  
+|Centos 7|apache2|
 
 
 #### TrusGuard 검증 기능
-|기능 | 상세 기능   
-|---|---
-| Object| Service 
-| Policy | Firewall , NAT , Blacklist , White List 
-| Content Filter  | Webfilter , Antivirus, mal site, C&C, etc
+|기능 | 상세 기능|   
+|---|---|
+| Object|Service| 
+| Policy |Firewall , NAT , Blacklist , White List| 
+| Content Filter  |Webfilter , Antivirus, mal site, C&C, etc|
 
 <br />
 
