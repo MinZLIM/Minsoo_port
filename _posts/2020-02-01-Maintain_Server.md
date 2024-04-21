@@ -40,10 +40,10 @@ TrusGuard 의 Content Filter 기능을 QA 하기 위해서는 다양한 조건�
 
 ### Web Server
 #### 서버 구동 정보
-|OS |Tool   
-|---|---
-| Window Server 2016|  IIS  
-| Centos 7 | apache2
+|OS |Tool|   
+|---|---|
+| Window Server 2016|  IIS|  
+| Centos 7 | apache2|
 
 
 #### TrusGuard 검증 기능
