@@ -40,9 +40,9 @@ TrusGuard 의 Content Filter 기능을 QA 하기 위해서는 다양한 조건�
 
 ### Web Server
 #### 서버 구동 정보
-|OS |Tool|   
+|OS |Tool|
 |---|---|
-|Window Server 2016|IIS|  
+|Window Server 2019|IIS|  
 |Centos 7|apache2|
 
 
@@ -55,22 +55,39 @@ TrusGuard 의 Content Filter 기능을 QA 하기 위해서는 다양한 조건�
 
 <br />
 
-### MAIL Server
- 웹 서버와 마찬가지로 운영체제는 윈도우 2019 서버와 Centos7 을 사용하여 구축하였다. 
- <br />
- 윈도우 2019 에서는 Simple EmailSender 를 사용하여 smtp 와 pop3 를 사용하였다. 
- <br />
- Centos7 의 경우는 SMTP 로 postfix 를 사용하였으며 , pop3 의 경우 dovecot 을 사용하여 메일 서버를 구축하였다. 
- <br />
- sasl 인증여부에 따라 XXX 되는 이슈가 있어 해당 이슈 확인을 위해 SASL 설정을 ON 시키며 구동하고 있다. 
+### MAIL Server(SMTP,POP3)
+#### 서버 구동 정보
+|OS |Tool|
+|---|---|
+|Window Server 2019|Simple Email Sender|  
+|Centos 7|postfix, dovecot|
+
+
+#### TrusGuard 검증 기능
+|기능 | 상세 기능|   
+|---|---|
+| Object|Service| 
+| Policy |Firewall , NAT , Blacklist , White List| 
+| Content Filter  |Webfilter , Antivirus, mal site, C&C, etc|
+ 
 
 <br />
 
 ### FTP Server
- FTP 서버의 경우 window 10 환경과 , Centos7 환경을 사용하여 구축하였다. 
- <br />
- Window 10 환경에서는 FileZilla 를 사용하여 FTP , FTPS 를 사용할 수 있으며 , Centos7 은 vsftpd 를 통해서 FTP 서버를 구축하였다. 
+#### 서버 구동 정보
+|OS |Tool|
+|---|---|
+|Window10 Enterprise|FileZilla|  
+|Centos 7|vsftpd|
 
+
+#### TrusGuard 검증 기능
+|기능 | 상세 기능|   
+|---|---|
+| Object|Service| 
+| Policy |Firewall , NAT , Blacklist , White List| 
+| Content Filter  |Webfilter , Antivirus, mal site, etc|
+ 
 <br />
 
 ## Auth Server 
@@ -79,15 +96,47 @@ TrusGuard 의 Content Filter 기능을 QA 하기 위해서는 다양한 조건�
 <br />
 
 ### RADIUS
- xxx
+#### 서버 구동 정보
+|OS |Tool|
+|---|---|
+|Centos 7 Docker||
+
+
+#### TrusGuard 검증 기능
+|기능 | 상세 기능|   
+|---|---|
+| Object|User id| 
+| Policy |Auth Policy| 
+| System |Admin auth|
 <br />
 
 ### ldap
- xxx
+#### 서버 구동 정보
+|OS |Tool|
+|---|---|
+|Centos 7|slapd|
+
+#### TrusGuard 검증 기능
+|기능 | 상세 기능|   
+|---|---|
+| Object|User id| 
+| Policy |Auth Policy| 
+| System |Admin auth|
 <br />
 
 ### tacas+
- xxx
+#### 서버 구동 정보
+|OS |Tool|
+|---|---|
+|Centos 7 Docker||
+
+
+#### TrusGuard 검증 기능
+|기능 | 상세 기능|   
+|---|---|
+| Object|User id| 
+| Policy |Auth Policy| 
+| System |Admin auth|
 <br />
 
 ## Openstack
