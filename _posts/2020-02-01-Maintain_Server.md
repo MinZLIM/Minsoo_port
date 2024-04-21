@@ -31,11 +31,10 @@ og_image: /assets/img/content/post-example/Banner.jpg
 ## Content Server List
 TrusGuard 의 프로토콜 별 트래픽 기능을 검증하기 위해서는 다양한 조건의 L7 프로토콜에 대한 지식 및 운영 환경이 필요하며 담당기능 진행간 하기의 환경에서 QA 를 진행하였음.
 검증 기능
- > Object : Service , 사용자 인증 객체
- > FIrewall : Policy , Auth Policy , NAT , Blacklist , WhiteList
+ > Object : Service , 사용자 인증 객체 <br />
+ > FIrewall : Policy , Auth Policy , NAT , Blacklist , WhiteList <br />
  > Content Filter : Webfilter , Antivirus, mal site, C&C, etc
 
-<!DOCTYPE html>
 <html>
 <head>
   <style>
