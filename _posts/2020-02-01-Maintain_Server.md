@@ -38,11 +38,18 @@ TrusGuard 의 Content Filter 기능을 QA 하기 위해서는 다양한 조건�
 
 <br />
 
-### Web Server 
- 운영체제로 윈도우 2019 서버와 Centos7 을 사용하여 웹 서버를 구축하였다. 
- <br />
- 윈도우 2019 의 겨웅 XXXX 를 사용하였으며 Centos7 의 경우 Apache2 와 PHP 를 연동하여 파일 업로드 / 다운로드가 가능하게 구축하였다. 
- 
+### Web Server
+#### 서버 구동 정보
+||:OS |Tool   
+|| Window Server 2016|  IIS  
+|| Centos 7 | apache2 
+
+#### TrusGuard 검증 기능
+||:기능 | 상세 기능   
+|| Object| Service 
+|| Policy | Firewall , NAT , Blacklist , White List 
+|| Content Filter  | Webfilter , Antivirus, mal site, C&C, etc
+
 <br />
 
 ### MAIL Server
