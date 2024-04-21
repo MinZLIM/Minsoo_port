@@ -16,9 +16,6 @@ og_image: /assets/img/content/post-example/Banner.jpg
 ## Table of Contents
 1. [Content Server List](#content-server-list)
 2. [Auth Server](#auth-server)
-    * [RADIUS](#radius)
-    * [LDAP](#ldap)
-    * [TACAS+](#tacas+)
 3. [OpenStack](#openstack)
     * [운영환경](#운영환경)
     * [KeyStone](#keystone)
