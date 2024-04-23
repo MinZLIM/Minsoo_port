@@ -50,6 +50,7 @@ TrusGuard 의 프로토콜 별 트래픽 기능을 검증하기 위해서는 다
         text-align: left; /* 셀의 텍스트 우측 정렬 */
     }
 </style>
+</head>
 <table>
   <tr>
     <th>Protocol</th>
@@ -72,7 +73,7 @@ TrusGuard 의 프로토콜 별 트래픽 기능을 검증하기 위해서는 다
     <td>FileZilla, vsftpd</td>
   </tr>
 </table>
-
+</html>
 
 
 <br />
@@ -102,6 +103,8 @@ TrusGuard 의 프로토콜 별 트래픽 기능을 검증하기 위해서는 다
         text-align: left; /* 셀의 텍스트 우측 정렬 */
     }
 </style>
+   </head>
+
 <table>
   <tr>
     <th>Protocol</th>
@@ -124,6 +127,7 @@ TrusGuard 의 프로토콜 별 트래픽 기능을 검증하기 위해서는 다
     <td></td>
   </tr>
 </table>
+</html>
 
 
 
