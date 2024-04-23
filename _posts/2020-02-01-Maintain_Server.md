@@ -18,12 +18,7 @@ og_image: /assets/img/content/post-example/Banner.jpg
 2. [Auth Server](#auth-server)
 3. [OpenStack](#openstack)
     * [운영환경](#운영환경)
-    * [KeyStone](#keystone)
-    * [Nova](#nova)
-    * [Neutron](#neutron)
-    * [Glance](#glance)
-    * [Cinder](#cinder)
-    * [Horizon](#horizon)
+    * [Module list](#module-list)
 
 ## Content Server List
 TrusGuard 의 프로토콜 별 트래픽 기능을 검증하기 위해서는 다양한 조건의 L7 프로토콜에 대한 지식 및 운영 환경이 필요하며 담당기능 진행간 하기의 환경에서 QA 를 진행하였음.<br />
@@ -141,26 +136,72 @@ TrusGuard 의 프로토콜 별 트래픽 기능을 검증하기 위해서는 다
 <img src="{{ "/assets/img/work/openstack_starter.png" | absolute_url }}" alt="bay" class="post-pic"/>
 
 
-### KeyStone
- OpenStack 에서 인증을 담당하는 서비스.
-<br />
+### Module list
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>표 만들기</title>
+<style>
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        border: 2px solid black; /* 표 전체의 테두리 */
+    }
+    th, td {
+        border: 2px solid black; /* 각 셀의 테두리 */
+        padding: 8px;
+        text-align: left; /* 셀의 텍스트 우측 정렬 */
+    }
+</style>
+   </head>
 
-### Nova
- 컴퓨팅 기능을 담당하는 서비스 
-<br />
+<table>
+  <tr>
+    <th>Service</th>
+    <th>Module name</th>
+    <th>비고</th>
+  </tr>
+  <tr>
+    <td>Identify</td>
+    <td>KeyStone</td>
+    <td>OpenStack 에서 인증을 담당하는 서비스</td>
+  </tr>
+  <tr>
+    <td>Compute</td>
+    <td>Nova</td>
+    <td>컴퓨팅 기능을 담당하는 서비스 </td>
+  </tr>
+    <tr>
+    <td>Image</td>
+    <td>Glane</td>
+    <td>가상 시스템 이미지 구축 서비스</td>
+  </tr>
+   
+  </tr>
+    <tr>
+    <td>DashBoard</td>
+    <td>Horizon</td>
+    <td>Web UI 연동 서비스</td>
+  </tr>
 
-### Neutron
- 네트워크 기능을 담당하는 서비스 <br />
-  ovs 를 통한 논리 인터페이스 및 openv switch 모듈을 활용하여 실제 물리서버의 인터페이스와 openstack 논리 인터페이스를 매핑시켜 사용. 
-<br />
+  </tr>
+    <tr>
+    <td>Block Storage</td>
+    <td>Cinder</td>
+    <td>볼륨 관리 서비스</td>
+  </tr>
+  
+  </tr>
+    <tr>
+    <td>Network Service</td>
+    <td>Neutron</td>
+    <td>네트워크 기능을 담당하는 서비스</td>
+  </tr>
+  
+</table>
+</html>
 
-### Glance
- 가상 시스템 이미지 구축 서비스
-<br />
 
-### Cinder
- 볼륨 관리 서비스
-<br />
 
-### Horizon
- ui 표시 서비스
+
