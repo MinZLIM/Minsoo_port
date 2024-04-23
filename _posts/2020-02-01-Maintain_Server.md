@@ -177,26 +177,20 @@ TrusGuard 의 프로토콜 별 트래픽 기능을 검증하기 위해서는 다
     <td>Glane</td>
     <td>가상 시스템 이미지 구축 서비스</td>
   </tr>
-   
-  </tr>
     <tr>
     <td>DashBoard</td>
     <td>Horizon</td>
     <td>Web UI 연동 서비스</td>
-  </tr>
-
   </tr>
     <tr>
     <td>Block Storage</td>
     <td>Cinder</td>
     <td>볼륨 관리 서비스</td>
   </tr>
-  
-  </tr>
     <tr>
     <td>Network Service</td>
     <td>Neutron</td>
-    <td>네트워크 기능을 담당하는 서비스</td>
+    <td>네트워크 기능을 담당하는 서비스로 flat,vxlan 과 같이 Networking 설정 고도화를 위해 ml2 로 OpenvSwitch 를 사용 </td>
   </tr>
   
 </table>
