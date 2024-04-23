@@ -131,7 +131,7 @@ TrusGuard 의 프로토콜 별 트래픽 기능을 검증하기 위해서는 다
 
 ### 운영환경
  신규 서버 구매에 비용 이슈가 있어 기존 운영하던 TrusGuard 10000B 플랫폼을 개조하여 우분투20.04 를 설치하였으며 OpenStack 버전은 Xena 를 사용하여 운영하였다.  
- 현재 추가적인 애플리케이션 운영은 필요하지 않아 기본 Starter Pack 으로 구축되었다.(+Horizon)
+ 현재 추가적인 서비스 운영은 필요하지 않아 기본 Starter Pack 으로 구축되었다.(+Horizon)
 <br />
 <img src="{{ "/assets/img/work/openstack_starter.png" | absolute_url }}" alt="bay" class="post-pic"/>
 
