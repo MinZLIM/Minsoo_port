@@ -26,7 +26,7 @@ og_image: /assets/img/content/post-example/Banner.jpg
     * [Horizon](#horizon)
 
 ## Content Server List
-TrusGuard 의 프로토콜 별 트래픽 기능을 검증하기 위해서는 다양한 조건의 L7 프로토콜에 대한 지식 및 운영 환경이 필요하며 담당기능 진행간 하기의 환경에서 QA 를 진행하였음.
+TrusGuard 의 프로토콜 별 트래픽 기능을 검증하기 위해서는 다양한 조건의 L7 프로토콜에 대한 지식 및 운영 환경이 필요하며 담당기능 진행간 하기의 환경에서 QA 를 진행하였음.<br />
 검증 기능
  > Object : Service <br />
  > FIrewall : Policy , NAT , Blacklist , WhiteList <br />
@@ -61,7 +61,7 @@ TrusGuard 의 프로토콜 별 트래픽 기능을 검증하기 위해서는 다
 <br />
 
 ## Auth Server 
- TrusGuard 의 사용자 및 관리자 인증 기능을 사용하기 위해서 다양한 인증서버 운영을 필요로 하여 docker 와 vm 환경을 통해 인증서버를 구축하였다. 
+ TrusGuard 의 사용자 및 관리자 인증 기능을 사용하기 위해서 다양한 인증서버 운영을 필요로 하여 docker 와 vm 환경을 통해 인증서버를 구축하였다.  <br />
 검증 기능
  > Object : 사용자 인증 객체 <br />
  > FIrewall : Auth Policy  <br />
