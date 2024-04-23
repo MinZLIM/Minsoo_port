@@ -47,7 +47,7 @@ TrusGuard 의 프로토콜 별 트래픽 기능을 검증하기 위해서는 다
     th, td {
         border: 2px solid black; /* 각 셀의 테두리 */
         padding: 8px;
-        text-align: right; /* 셀의 텍스트 우측 정렬 */
+        text-align: left; /* 셀의 텍스트 우측 정렬 */
     }
 </style>
 <table>
@@ -72,7 +72,6 @@ TrusGuard 의 프로토콜 별 트래픽 기능을 검증하기 위해서는 다
     <td>FileZilla, vsftpd</td>
   </tr>
 </table>
-</html>
 
 
 
@@ -86,6 +85,23 @@ TrusGuard 의 프로토콜 별 트래픽 기능을 검증하기 위해서는 다
  > System : admin Auth
 
 ### Server env
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>표 만들기</title>
+<style>
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        border: 2px solid black; /* 표 전체의 테두리 */
+    }
+    th, td {
+        border: 2px solid black; /* 각 셀의 테두리 */
+        padding: 8px;
+        text-align: left; /* 셀의 텍스트 우측 정렬 */
+    }
+</style>
 <table>
   <tr>
     <th>Protocol</th>
