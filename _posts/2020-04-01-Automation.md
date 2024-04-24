@@ -15,7 +15,7 @@ og_image: /assets/img/work/utm.png
 3. [Python3 Script](#python3-script)
     * [TPAT](#tpat)
     * [Coin Bot](#coin-bot)
-    * [etc project](#etc project)
+    * [etc project](#etc-project)
 4. [terraform](#terraform)
     * [vSphere](#vsphere)
 
