@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "TrusGuard QA Engineering"
+title:  "Automation"
 date:   2020-02-04 10:00:40
 blurb: ""
 og_image: /assets/img/work/utm.png
