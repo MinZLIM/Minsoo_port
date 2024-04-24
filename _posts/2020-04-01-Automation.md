@@ -75,4 +75,4 @@ xTG(ZTNA)에서는 접근 디바이스의 OS 별로 ZTNA Agent 가 설치되며 
   > KH 정보교육원에서 교육 중 마지막 프로젝트로 본인은 공격자 역할로 Reverse Shell , 랜섬웨어 프로그램을 Python3 로 작성.  <br />
 
 [RFID를 이용한 그래픽 표현 도서 검색 시스템](https://onedrive.live.com/edit?id=707B47AB16B1E73D!10717&resid=707B47AB16B1E73D!10717&ithint=file%2cpptx&authkey=!AGElnwh3zxpQK_g&wdo=2&cid=707b47ab16b1e73d) <br />
- > 학부생 시절 소속 연구실 발료 포스터 논문으로 아두이노와 RFID 를 활용한 도서 위치 검색 시스템.  <br />
+ > 학부생 시절 소속 연구실 포스터 논문으로 아두이노와 RFID 를 활용한 도서 위치 검색 시스템.  <br />
