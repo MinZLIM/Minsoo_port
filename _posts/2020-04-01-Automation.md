@@ -16,8 +16,9 @@ og_image: /assets/img/work/utm.png
     * [Coin Bot](#coin-bot)
 4. [Terraform](#terraform)
     * [vSphere](#vsphere)
-
 5. [ETC Project](#etc-project)
+
+
 ---
 
 ## 개요
@@ -70,7 +71,7 @@ xTG(ZTNA)에서는 접근 디바이스의 OS 별로 ZTNA Agent 가 설치되며 
 
 ---
 
-## etc project
+## ETC Project
  그 외 학업 및 개인 스터디 용 sub 프로젝트들을 기재.  <br />
  [KH Final Project](https://onedrive.live.com/edit?id=707B47AB16B1E73D!6578&resid=707B47AB16B1E73D!6578&ithint=file%2cpptx&authkey=!AEd0Hhp-JBWUM8s&wdo=2&cid=707b47ab16b1e73d) <br />
   > KH 정보교육원에서 교육 중 마지막 프로젝트로 본인은 공격자 역할로 Reverse Shell , 랜섬웨어 프로그램을 Python3 로 작성.  <br />
