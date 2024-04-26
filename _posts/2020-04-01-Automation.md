@@ -49,7 +49,7 @@ TCP 의 세션 Status 별 상태 확인을 위하여 hping3 에서 flag 조정�
 
 ---
 
-## Python3 Scirpt 
+## Python3 Script 
 개인 학업 및 업무 수행간 주로 Python3 를 사용하여 진행하였으며, 이 장에서는 Python3 를 사용한 프로젝트 및 도구들을 기술. 
 
 ### TPAT
@@ -59,8 +59,8 @@ TCP 의 세션 Status 별 상태 확인을 위하여 hping3 에서 flag 조정�
 ### Coin Bot
 [Coin Bot](https://github.com/MinZLIM/minsoo_coinbot) <br />
  TrusGuard 에서 Restapi 를 지원을 하게되어 해당 내용 리서치 중 당시 코인 거래로 사용하던 업비트에서도 RestAPI 를 지원한다는 것을 알게되어, RestAPI 와 Python3 스터디 및 개인적인 목적을 가지고 위 프로젝트를 수행하게 되었다. <br />
+ 업비트에서 RestAPI 로 전달 받은 캔들(차트)정보를 토대로 MACD,RSI,Stocastic,etc 와 같은 지표들을 계산하고, 특정 시그널에 매도/매수 하는 전략으로 작성하였다.
 
-#### 동작 방식
 
 ---
 
