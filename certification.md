@@ -35,20 +35,3 @@ items:
     description: TrusGuard 의 가상화 프로젝트 일환으로 OpenStack Xena / Yoga 환경을 우분투20.04 에서 구축 <br /> Service <br / > glance , NOVA, Neutron , Keystone , Cinder , Horizon <br /> Level 2
     
 ---
-
----
-# Certification
-- 컴활 2 급
-- 정보처리기사
-- 리눅스마스터 2 급
-- 정보보안기사
-
----
-#### Skill Set Notice
-###### Level 1: 미숙, 추가 리서치 및 활용 터득 필요.
-###### Level 2: 개념 및 기능은 이해한 상태이나 활용 및 숙달이 필요.
-###### Level 3: 독자적으로 활용 프로텍트 수행 가능. 
-###### Level 4: 고도화 작업을 통해 프로젝트에 적용 가능.
-###### Level 5: 하위 기능간의 호환성 이해 및 Leading 가능. 
-
----
