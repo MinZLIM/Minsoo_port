@@ -102,6 +102,8 @@ slug: /project
 </html>
 
 
+
+<!--  
 **#IOT** , **#Aduino** , **#MIT APP Inventor** 
 
 2017.09 - 캡스톤 디자인 프로젝트(조선대학교) [Automatic pill dispenser](https://1drv.ms/p/s!Aj3nsRarR3twh26VWGmkwj183af6?e=JiV6sC)
@@ -117,5 +119,6 @@ slug: /project
 <br />
 -이 시스템은 책을 관리하는 도서관 및 각종 도서를 관리하는 시설에서 고객 및 이용자가 보다 쉽고 편리하게 원하는 도서를 찾기 위한 방법이다. 사용자가 단말기 및 시설에 배치된 컴퓨터를 통해 도서를 검색하면 기존의 문자 형식으로 도서의 식별 번호를 나타내는 방법이 아닌 찾고자 하는 도서의 UID코드를 인식한, 리더기의 위치를 그래픽으로 보여준다
 <br />
+-->
 
 ------
