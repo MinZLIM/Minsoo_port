@@ -31,7 +31,7 @@ slug: /project
   </tr>
   <tr>
     <td>2019 ~ 현재 </td>
-    <td>[Ahnlab TrusGuard QA](https://minzlim.github.io/Minsoo_port/2020/02/04/Ahnlab_QA)</td>
+    <td><a href="https://minzlim.github.io/Minsoo_port/2020/02/04/Ahnlab_QA">Ahnlab_QA</a></td>
     <td>IIS,Apache2</td>
   </tr>
   <tr>
