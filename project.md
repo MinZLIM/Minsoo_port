@@ -76,8 +76,8 @@ slug: /project
   <tr>
     <td>2018.08 ~ 2018.09 (1 개월) </td>
     <td><a href="https://1drv.ms/b/s!Aj3nsRarR3twnCi8Z0bIwBMkItQ-?e=HZZlin">네트워크 보안 강화 프로젝트</a></td>
-    <td>Ahnlab</td>
-    <td>UTM,Network,System,Automation</td>
+    <td>KH 정보교육원</td>
+    <td>Network,Security,</td>
   </tr>
   <tr>
     <td>2019~ 현재</td>
