@@ -3,10 +3,49 @@ layout: project
 title: Project
 slug: /project
 ---
-프로젝트, Working History
-<br />
 
-------
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>표 만들기</title>
+<style>
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        border: 2px solid black; /* 표 전체의 테두리 */
+    }
+    th, td {
+        border: 2px solid black; /* 각 셀의 테두리 */
+        padding: 8px;
+        text-align: left; /* 셀의 텍스트 우측 정렬 */
+    }
+</style>
+</head>
+<table>
+  <tr>
+    <th>기간</th>
+    <th>Project</th>
+    <th>회사명</th>
+    <th>Keyword</th>
+  </tr>
+  <tr>
+    <td>2019 ~ 현재 </td>
+    <td>[Ahnlab TrusGuard QA](https://minzlim.github.io/Minsoo_port/2020/02/04/Ahnlab_QA)</td>
+    <td>IIS,Apache2</td>
+  </tr>
+  <tr>
+    <td>SMTP,POP3</td>
+    <td>Window Server2019 VM, Centos7 VM</td>
+    <td>Simple Email Sender , Postfix,dovecot</td>
+  </tr>
+    <tr>
+    <td>FTP</td>
+    <td>Window 10 Enterprise, Centos7 VM</td>
+    <td>FileZilla, vsftpd</td>
+  </tr>
+</table>
+</html>
 
 **#Netowrk** , **#Security**
 
