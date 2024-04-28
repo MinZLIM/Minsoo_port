@@ -40,12 +40,56 @@ slug: /project
     <td><a href="https://minzlim.github.io/Minsoo_port/2020/02/04/Automation">TrusGuard_Automation</a></td>
     <td>Ahnlab</td>
     <td>Python3, CICD, Docker</td>
+  </tr>
 </table>
 </html>
 
 ---
 
 ## 개인 및 sub 프로젝트 
+
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>표 만들기</title>
+<style>
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        border: 2px solid black; /* 표 전체의 테두리 */
+    }
+    th, td {
+        border: 2px solid black; /* 각 셀의 테두리 */
+        padding: 8px;
+        text-align: left; /* 셀의 텍스트 우측 정렬 */
+    }
+</style>
+</head>
+<table>
+  <tr>
+    <th>기간</th>
+    <th>Project</th>
+    <th>회사명</th>
+    <th>Keyword</th>
+  </tr>
+  <tr>
+    <td>2018.08 ~ 2018.09 (1 개월) </td>
+    <td><a href="https://1drv.ms/b/s!Aj3nsRarR3twnCi8Z0bIwBMkItQ-?e=HZZlin">네트워크 보안 강화 프로젝트</a></td>
+    <td>Ahnlab</td>
+    <td>UTM,Network,System,Automation</td>
+  </tr>
+  <tr>
+    <td>2019~ 현재</td>
+    <td><a href="https://minzlim.github.io/Minsoo_port/2020/02/04/Automation">TrusGuard_Automation</a></td>
+    <td>Ahnlab</td>
+    <td>Python3, CICD, Docker</td>
+  </tr>
+</table>
+</html>
+
+
+
 **#Netowrk** , **#Security**
 
 2022.08 - TrusGuard QA_Object , Policy 기능 담당 변경 (Ahnlab) [TrusGuard QA](https://minzlim.github.io/Minsoo_port/2020/02/04/Ahnlab_QA)
