@@ -12,7 +12,7 @@ og_image: /assets/img/content/post-example/Banner.jpg
 <br />
 
 
-#### Table of Contents
+## Table of Contents
 1. [개요](#개요)
     * [목표](#목표)
     * [배경](#배경)
@@ -27,8 +27,8 @@ og_image: /assets/img/content/post-example/Banner.jpg
     * [Framework](#framework)
     * [Test Case](#test-case)
   
-#### 개요
-##### 목표
+## 개요
+### 목표
 Trusguard는 통합 NOS를 사용하고 있으며 CPU, Memory, Interface 등... Hardware적 구분은 NAPS와 Software적 정의를 통해 Platform 구분하고 Hardware Spec에 걸맞는 서비스를 제공하고 있다. 이에 따라 Fimeware가 신규로 제공되는 경우 전체 Platform은 영향을 받게되어 있다.
 <br />
 Firmware 변경이 발생되는 경우 Platform별 상이하게 발생될 수 있는 H/W기반 특성과 S/W특성을 사전에 검증하여 Firmware 변경 발생 시 안정적 품질의 서비스를 제공하는 것을 목표로 한다.
@@ -42,7 +42,7 @@ TrusGuard의 플랫폼 별(H/W 사양에 따른) 검증 효율화
 2 ) 자동화를 통한 플랫폼 별 검증 진행
 <br />
 
-##### 배경
+### 배경
 TrusGuard는 2022년 현재 25종 (Low-end 6종, middle-end 13종, high-end 6종)의 Line-up 구성이며, 유지보수에 해당되는 제품까지 포함하여 총 25종의 platform을 지원하고 있다.
 <br />
 또한, Middle-end 이상의 제품에서는 지원되는 NIC(Network Interface Card)는 총 18종에 이른다.
@@ -59,14 +59,14 @@ TG의 경우 다양한 Platform과 NIC을 제공하고 있으며 일부 기능�
 <br />
 <br />
 
-#### 구현과제
-##### TG Platform 별 검증 효율화를 위한 환경 구축
+## 구현과제
+### TG Platform 별 검증 효율화를 위한 환경 구축
 TrusGuard Line-up 중 25종 선별 및 모든 종류의 Ethernet Driver를 사용하는 환경을 구축한다.
 <br />
 Platform별 비교 시험과 검증이 가능한 자동화 구축 환경을 제공한다.
 <br />
 
-##### TG Platform 기반의 자동화 검증 환경 구축
+### TG Platform 기반의 자동화 검증 환경 구축
 Control command: ssh접속 & cli 제어
 <br />
 Programming: Python3
@@ -86,8 +86,8 @@ Platform 검증 Test Category 구현 계획
     ④ Platform별로 상이한 결과를 가져올 수 있는 Aging Test scenario 선별 
 <br />
 
-#### 물리구성
-##### 물리 구성 규칙
+## 물리구성
+### 물리 구성 규칙
 TrusGuard Line-up 중 20종 선별 및 모든 종류의 Ethernet Driver를 사용하는 환경을 구축한다.
 <br />
 -규칙
@@ -114,7 +114,7 @@ Trusguard ALL Line-up 대상으로 각 1대씩 구축 : 2022. 10.31   기준 25�
 <br />
 Linux Server (Worker) : 2대
 
-##### 물리 구성 세부 내용
+### 물리 구성 세부 내용
 자동화 환경에서 Route mode, Bridge mode의 자유로운 설정이 가능한 기초 물리 구성을 한다.
 <br />
 <img src="{{ "/assets/img/content/TPAT/TPAT1.png" | absolute_url }}" alt="bay" class="post-pic"/>
@@ -130,8 +130,8 @@ Switch나 TG를 control하여 Bridge mode, Route mode를 선택하여 Traffic이
 <img src="{{ "/assets/img/content/TPAT/TPAT2.png" | absolute_url }}" alt="bay" class="post-pic"/>
 <br />
 
-#### 자동화 구성
-##### Spec
+## 자동화 구성
+### Spec
 Trusguard 전 Platform을 지원하며 지원 가능한 TG의 Frimware는 TG2.7.3 이상으로 정의한다. (주요 유지보수 버전)
 <br />
 자동화 Framework : NQA팀에 구축된  Gauge와 GoCD를 사용하여 구현 한다.
@@ -142,7 +142,7 @@ Gauge는 테스트 케이스를 정의하고 자동으로 수행 하는 방법�
 <br />
 GoCD는 CI/CD Tool 이며, GoCD를 통해 Firmware 변경 등의 조건을 주어 CI의 적용 가능하다.
 
-##### Framework
+### Framework
 GoCD는 CI/CD Tool 이며,  아래와 같이 단일 Server와 다수의 Agent로 구성된다
 <br />
 <img src="{{ "/assets/img/content/TPAT/TPAT23.png" | absolute_url }}" alt="bay" class="post-pic"/>
@@ -161,7 +161,7 @@ T-PAT는 다양한 Aging 검증 시나리오를 계획하고 있다. Traffic 인
 <br />
 <img src="{{ "/assets/img/content/TPAT/TPAT4.png" | absolute_url }}" alt="bay" class="post-pic"/>
 
-##### Test Case
+### Test Case
 자동화 Test Case의 Category는 4가지로 구성한다.
 <br />
 ① Platform별로 상이한 H/W기반 동작을 검증할 수 있는 Test
