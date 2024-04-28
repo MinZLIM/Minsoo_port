@@ -202,6 +202,6 @@ Openstack 에서 제공하는 sdk 를 활용하여 vTG 자동화를 진행하였
 Main Test Case 는 아래와 같다. <br />
 Precondition. <br />
 openstacksdk 는 openstack 서버의 IPC 통신을 위한 Net link 와 통신을 하기 때문에 자동화 컨텐츠가 수행되는 Client 들에는 Openstack IPC Host 에 대한 경로가 있어야 함. 
- > vTG 인스턴스 생성(Openstacksdk 활용)
- > vTG 라이선스 설치
+ > vTG 인스턴스 생성(Openstacksdk 활용) <br />
+ > vTG 라이선스 설치 <br />
  > TPAT 자동화 코드 적용 [TPAT](https://minzlim.github.io/Minsoo_port/2020/06/01/TrusGuard_Platform_Automation_Test) 
