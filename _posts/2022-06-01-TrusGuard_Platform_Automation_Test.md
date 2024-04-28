@@ -26,7 +26,9 @@ og_image: /assets/img/content/post-example/Banner.jpg
     * [Spec](#spec)
     * [Framework](#framework)
     * [Test Case](#test-case)
-  
+
+---
+
 ## 개요
 ### 목표
 Trusguard는 통합 NOS를 사용하고 있으며 CPU, Memory, Interface 등... Hardware적 구분은 NAPS와 Software적 정의를 통해 Platform 구분하고 Hardware Spec에 걸맞는 서비스를 제공하고 있다. 이에 따라 Fimeware가 신규로 제공되는 경우 전체 Platform은 영향을 받게되어 있다.
@@ -57,7 +59,8 @@ TG의 경우 다양한 Platform과 NIC을 제공하고 있으며 일부 기능�
 <br />
 그러나 H/W를 기반으로 Software를 Test하는 환경과 시나리오는 부족한 실정이다. 주요 H/W변경, 전체 Platform에 영향을 주는 S/W수정, NAPS 버전 Upgrade 시 품질과 안정성 보증을 위해 때마다 수동 전수 검증 되고 있으며 이에 따른 비용이 발생한다.
 <br />
-<br />
+
+---
 
 ## 구현과제
 ### TG Platform 별 검증 효율화를 위한 환경 구축
@@ -85,6 +88,8 @@ Platform 검증 Test Category 구현 계획
 <br />
     ④ Platform별로 상이한 결과를 가져올 수 있는 Aging Test scenario 선별 
 <br />
+
+---
 
 ## 물리구성
 ### 물리 구성 규칙
@@ -129,6 +134,8 @@ Switch나 TG를 control하여 Bridge mode, Route mode를 선택하여 Traffic이
 <br />
 <img src="{{ "/assets/img/content/TPAT/TPAT2.png" | absolute_url }}" alt="bay" class="post-pic"/>
 <br />
+
+---
 
 ## 자동화 구성
 ### Spec
