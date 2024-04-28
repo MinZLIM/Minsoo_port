@@ -19,6 +19,7 @@ og_image: /assets/img/content/post-example/Banner.jpg
 3. [OpenStack](#openstack)
     * [운영환경](#운영환경)
     * [Module list](#module-list)
+    * [Openstacksdk](#openstacksdk)
 
 ## Content Server List
 TrusGuard 의 프로토콜 별 트래픽 기능을 검증하기 위해서는 다양한 조건의 L7 프로토콜에 대한 지식 및 운영 환경이 필요하며 담당기능 진행간 하기의 환경에서 QA 를 진행하였음.<br />
@@ -196,6 +197,11 @@ TrusGuard 의 프로토콜 별 트래픽 기능을 검증하기 위해서는 다
 </table>
 </html>
 
-
-
-
+### Openstacksdk
+Openstack 에서 제공하는 sdk 를 활용하여 vTG 자동화를 진행하였으며 , 주요 테스트 컨텐츠는 TPAT 코드를 재사용 하였다. <br />
+Main Test Case 는 아래와 같다. <br />
+Precondition. <br />
+openstacksdk 는 openstack 서버의 IPC 통신을 위한 Net link 와 통신을 하기 때문에 자동화 컨텐츠가 수행되는 Client 들에는 Openstack IPC Host 에 대한 경로가 있어야 함. 
+ > vTG 인스턴스 생성(Openstacksdk 활용)
+ > vTG 라이선스 설치
+ > TPAT 자동화 코드 적용 [TPAT](https://minzlim.github.io/Minsoo_port/2020/06/01/TrusGuard_Platform_Automation_Test) 
