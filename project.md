@@ -32,21 +32,20 @@ slug: /project
   <tr>
     <td>2019 ~ 현재 </td>
     <td><a href="https://minzlim.github.io/Minsoo_port/2020/02/04/Ahnlab_QA">Ahnlab_QA</a></td>
-    <td>IIS,Apache2</td>
+    <td>Ahnlab</td>
+    <td>UTM,Network,System,Automation</td>
   </tr>
   <tr>
-    <td>SMTP,POP3</td>
-    <td>Window Server2019 VM, Centos7 VM</td>
-    <td>Simple Email Sender , Postfix,dovecot</td>
-  </tr>
-    <tr>
-    <td>FTP</td>
-    <td>Window 10 Enterprise, Centos7 VM</td>
-    <td>FileZilla, vsftpd</td>
-  </tr>
+    <td>2019~ 현재</td>
+    <td><a href="https://minzlim.github.io/Minsoo_port/2020/02/04/Automation">TrusGuard_Automation</a></td>
+    <td>Ahnlab</td>
+    <td>Python3, CICD, Docker</td>
 </table>
 </html>
 
+---
+
+## 개인 및 sub 프로젝트 
 **#Netowrk** , **#Security**
 
 2022.08 - TrusGuard QA_Object , Policy 기능 담당 변경 (Ahnlab) [TrusGuard QA](https://minzlim.github.io/Minsoo_port/2020/02/04/Ahnlab_QA)
