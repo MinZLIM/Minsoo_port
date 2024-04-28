@@ -31,14 +31,14 @@ slug: /project
     <th>Keyword</th>
   </tr>
   <tr>
-    <td>2019 ~ 현재 </td>
+    <td>2019.09 ~ 현재 </td>
     <td><a href="https://minzlim.github.io/Minsoo_port/2020/02/04/Ahnlab_QA">Ahnlab_QA</a></td>
     <td>Ahnlab</td>
     <td>TrusGuard 기능 검증</td>
     <td>UTM,Network,System,Automation</td>
   </tr>
   <tr>
-    <td>2019 ~ 현재</td>
+    <td>2019.09 ~ 현재</td>
     <td><a href="https://minzlim.github.io/Minsoo_port/2020/02/04/Automation">TrusGuard_Automation</a></td>
     <td>Ahnlab</td>
     <td>자동화 컨텐츠 작성 및 인프라 유지보수</td>  
