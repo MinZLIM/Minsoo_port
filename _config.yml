@@ -15,7 +15,6 @@ header:
       slug: /
     - name: Project
       ## link: https://minzlim.github.io//Minsoo_port/blog
-    - name: Certification
 
 footer:
   show_powered_by: true
