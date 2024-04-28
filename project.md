@@ -27,18 +27,21 @@ slug: /project
     <th>기간</th>
     <th>Project</th>
     <th>회사명</th>
+    <th>담당업무</th>
     <th>Keyword</th>
   </tr>
   <tr>
     <td>2019 ~ 현재 </td>
     <td><a href="https://minzlim.github.io/Minsoo_port/2020/02/04/Ahnlab_QA">Ahnlab_QA</a></td>
     <td>Ahnlab</td>
+    <td>TrusGuard 기능 검증</td>
     <td>UTM,Network,System,Automation</td>
   </tr>
   <tr>
-    <td>2019~ 현재</td>
+    <td>2019 ~ 현재</td>
     <td><a href="https://minzlim.github.io/Minsoo_port/2020/02/04/Automation">TrusGuard_Automation</a></td>
     <td>Ahnlab</td>
+    <td>자동화 컨텐츠 작성 및 인프라 유지보수</td>  
     <td>Python3, CICD, Docker</td>
   </tr>
 </table>
@@ -77,90 +80,26 @@ slug: /project
     <td>2018.08 ~ 2018.09 (1 개월) </td>
     <td><a href="https://1drv.ms/b/s!Aj3nsRarR3twnCi8Z0bIwBMkItQ-?e=HZZlin">네트워크 보안 강화 프로젝트</a></td>
     <td>KH 정보교육원</td>
+    <td>해군 네트워크 구성 및 방화벽 정책 수립</td>
     <td>Network,Security,</td>
   </tr>
   <tr>
-    <td>2019~ 현재</td>
-    <td><a href="https://minzlim.github.io/Minsoo_port/2020/02/04/Automation">TrusGuard_Automation</a></td>
-    <td>Ahnlab</td>
-    <td>Python3, CICD, Docker</td>
+    <td>2019.01 ~ 2019.02 (2 개월)</td>
+    <td><a href="https://onedrive.live.com/view.aspx?resid=707B47AB16B1E73D%216578&authkey=!AEd0Hhp-JBWUM8s">모의 해킹 프로젝트</a></td>
+    <td>KH 정보교육원</td>
+    <td>모의 해킹(Reverse Shell,로컬 부하,레지스트리 변조) </td>  
+    <td>Python3, Security</td>
+  </tr>
+  <tr>
+    <td>2023.08 ~ 2023.12 (4 개월)</td>
+    <td><a href="https://github.com/MinZLIM/minsoo_coinbot">Minsoo_Coinbot</a></td>
+    <td>개인</td>
+    <td>Coin 자동 거래 봇 프로그래밍</td>  
+    <td>Python3, Rest API</td>
   </tr>
 </table>
 </html>
 
-
-
-**#Netowrk** , **#Security**
-
-2022.08 - TrusGuard QA_Object , Policy 기능 담당 변경 (Ahnlab) [TrusGuard QA](https://minzlim.github.io/Minsoo_port/2020/02/04/Ahnlab_QA)
-<br />
--TrusGuard 의 Policy , Object 기능 QA 담당으로 White/Black List , Geoip Block , Auth rule, QOS/FQDN , etc 테스트 수행하며 다수의 Auth 서버 운영(LDAP,MSSQL,RADIUS,etc)
-<br />
-
-------
-
-**#Network** , **#Snort** , **#Server Engineering** , **#Security**
-
-2018.08 - 네트워크 보안 강화 프로젝트 (KH 정보교육원) [KH Semi Project](https://1drv.ms/b/s!Aj3nsRarR3twnCi8Z0bIwBMkItQ-?e=HZZlin)
-<br />
--예전 군에서 공군의 하위 호스트 하나가 침해를 당하자 그 위의 상위 서버 및 네트워크 전체가 침해 당한 사고를 모티브로 육해공군 각 군을 분할하여 네트워크를 구성 하였으며 각 네트워크는 스노트로 보안하였다. 본인은 해군 네트워크를 구성 하였다. 구성요소는 host와 웹서버, dns서버를 구성했다. 또한 네서스를 사용하여 스노트를 운영하고 있는 서버를 스캔해 점검을 하였다.
-<br />
-
-------
-
-**#Python3** , **#Kali Linux** , **#Security** 
-
-2019.02 - 모의 해킹 프로젝트 (KH 정보교육원) [KH Final Project](https://1drv.ms/p/s!Aj3nsRarR3twszJHdB4afiQVlDPL?e=dzss7i)
-<br />
--가상의 회사를 만들어 그 회사에 대한 침투를 시도하였습니다. 제가 맡은 역할은 공격자였으며 주로 파이썬을 활용한 공격을 하였습니다. flask를 사용해 보았으며, 리버스쉘 파일, 랜섬웨어 파일을 만들어 공격하였습니다. 이후 공격에 대한 대응 방안을 만들었습니다. 
-<br />
-
-------
-
-**#EMS** , **#QA Engineering** , **#IXIA**
-
-2019.09 - TMS QA 입사 (Ahnlab)
-<br />
--TMS(Threat Management System) 제품의 QA로 입사 Policy Manager 와 TM 기능에 대한 검증 수행. IXIA Packet Generator , TrusGuard , DPX , AIPS , etc 연동 제품에 대한 연계 테스트 수행
-<br />
-
-------
-
-**#Proxy** , **#Server Engineering** , **#Security** 
-
-2020.02 - TrusGuard QA_ Content Filter , System 기능 담당 변경 (Ahnlab) [TrusGuard QA](https://minzlim.github.io/Minsoo_port/2020/02/04/Ahnlab_QA)
-<br />
--TrusGuard 의 ContentFilter , System 기능 QA 담당으로 AntiVirus , Malware Detection , Antispam , etc 테스트 하였으며 다수의 L7 서버 운영 (WEB ,DNS , SMTP, POP3 _ SSL , etc)
-<br />
-
-------
-
-**#Python3** , **#CICD** , **#Docker** , **#Network**
-
-2020.06 - TrusGuard Platform Automation Test(Ahnlab) [T-PAT](https://minzlim.github.io/Minsoo_port/2020/06/01/TrusGuard_Platform_Automation_Test)
-<br />
--Platform Automaion Test 를 진행 Python 에서 Gauge 기반으로 스크립트를 작성하며, CICD 로 GOCD 를 활용. 
-<br />
-
-------
-
-**#Rest API** , **#Python3**
-
-2021.12 - Upbit Coint Bot Project (Personal) [Minsoo Coinbot](https://github.com/MinZLIM/minsoo_coinbot)
-<br />
--개인 프로텍트로 업비트에서 제공하는 Rest API,webSocket 을 활용하여 코인 자동 매수/매도 프로그램을 작성. 차트 분석 지표인 Stocastic , RSI , MACD, etc 을 활용하여 구축하였으며 이동평균선을 기준으로 매도가 설정 , Websocket 을 통해 실시간으로 매수한 코인의 현재가를 확인하여 설정된 손절가에서 매도 수행. 
-<br />
-
-------
-
-**#OpenStack** 
-
-2022.06 - vTG Project With OpenStack(Ahnlab) [Maintain Server info](https://minzlim.github.io/Minsoo_port/2020/02/02/Maintain_Server)
-<br />
--클라우드 기반 vTG 프로젝트를 진행하였으며 테스트 환경 구축을 위해 OpenStack(Xena)를 활용. OpenStack 에는 Glance , Keystone , Horizon, Cinder , Nova, Neutron 서비스 구동하여 진행.
-<br />
-
-------
 
 **#IOT** , **#Aduino** , **#MIT APP Inventor** 
 
