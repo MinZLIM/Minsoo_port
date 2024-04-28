@@ -74,6 +74,7 @@ slug: /project
     <th>기간</th>
     <th>Project</th>
     <th>회사명</th>
+    <th>담당업무</th>
     <th>Keyword</th>
   </tr>
   <tr>
