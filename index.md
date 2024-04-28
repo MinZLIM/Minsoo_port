@@ -22,5 +22,16 @@ profile_picture:
 
 ---
 
-# Skills
- - 
+### Skills
+#### System Engineering 
+##### Linux
+##### OpenStack
+##### Docker
+#### Network Engineering
+##### UTM
+##### Packet Generating(IXIA,hping3,scapy,etc) 
+#### Script
+##### Bash
+##### Python3  
+##### IAC(Terraform)
+##### CICD(GoCD) 
