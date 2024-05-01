@@ -35,7 +35,7 @@ slug: /project
     <td><a href="https://minzlim.github.io/Minsoo_port/2020/02/04/Ahnlab_QA">Ahnlab_QA</a></td>
     <td>Ahnlab</td>
     <td>TrusGuard 기능 검증</td>
-    <td>UTM,Network,System,Automation</td>
+    <td>UTM,Network,System</td>
   </tr>
   <tr>
     <td>2019.09 ~ 현재</td>
