@@ -24,8 +24,8 @@ profile_picture:
 
 ### Skills
 #### System Engineering 
-> Linux <br />
-> OpenStack <br />
+> Linux : ■ ■ ■ ■ □ <br />
+> OpenStack:  <br />
 > Docker <br />
 
 #### Network Engineering
