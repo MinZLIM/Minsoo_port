@@ -19,6 +19,8 @@ slug: /project
         border: 2px solid black; /* 각 셀의 테두리 */
         padding: 8px;
         text-align: left; /* 셀의 텍스트 우측 정렬 */
+        word-wrap: break-word; /* 단어가 셀을 벗어나면 자동 개행 */
+        white-space: nowrap; /* 텍스트가 한 줄로 유지되도록 공백 없이 표시 */
     }
 </style>
 </head>
@@ -66,6 +68,8 @@ slug: /project
         border: 2px solid black; /* 각 셀의 테두리 */
         padding: 8px;
         text-align: left; /* 셀의 텍스트 우측 정렬 */
+        word-wrap: break-word; /* 단어가 셀을 벗어나면 자동 개행 */
+        white-space: nowrap; /* 텍스트가 한 줄로 유지되도록 공백 없이 표시 */
     }
 </style>
 </head>
