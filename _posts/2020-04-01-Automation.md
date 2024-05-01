@@ -54,7 +54,7 @@ TCP 의 세션 Status 별 상태 확인을 위하여 hping3 에서 flag 조정�
 개인 학업 및 업무 수행간 주로 Python3 를 사용하여 진행하였으며, 이 장에서는 Python3 를 사용한 프로젝트 및 도구들을 기술. 
 
 ### TPAT
-[TPAT](https://github.com/MinZLIM/Minsoo_port/blob/master/_posts/2022-06-01-TrusGuard_Platform_Automation_Test.md) <br />
+[TPAT](https://minzlim.github.io/Minsoo_port/2020/06/01/TPAT) <br />
  TrusGuard Platform Automation Test 의 약자로 다양한 HW 스펙을 가진 펌웨어 제품인 TrusGuard 플랫폼의 안정성 및 호환성을 주로 확인하기 위해 Python3,Docker,GoCD 를 활용하여 자동화 하였다. 
 
 ### Coin Bot
