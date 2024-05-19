@@ -24,17 +24,16 @@ profile_picture:
 
 ### Skills
 #### System Engineering 
-> Linux : ■ ■ ■ ■ □ <br />
-> OpenStack : ■ ■ □ □ □ <br />
-> Docker : ■ ■ ■ □ □ <br />
+> OS(Centos,Ubuntu) : ■ ■ ■ ■ □ <br />
+> Virtualation(Docker, Virtualbox, VMware, OpenStack) : ■ ■ ■ □ □ <br />
 
 #### Network Engineering
-> UTM : ■ ■ ■ ■ □ <br />
-> Packet Generating(IXIA,hping3,scapy,etc) : ■ ■ ■ □ □ <br />
-> CISCO,3COM : ■ ■ ■ □ □  
+> Appliance(UTM,Cisco,3com) : ■ ■ ■ ■ □ <br />
+> Packet Generating(IXIA,hping3,scapy) : ■ ■ ■ □ □ <br />
+> Trouble Shooting(Wireshark) : ■ ■ ■ □ □  
 
 #### Script
 > Bash : ■ ■ ■ □ □<br />
 > Python3 : ■ ■ ■ ■ □<br /> 
-> IAC(Terraform): ■ ■ □ □ □  <br />
+> IAC(Terraform,ansible): ■ ■ □ □ □  <br />
 > CICD(GoCD) : ■ ■ ■ ■ □
