@@ -15,10 +15,6 @@ og_image: /assets/img/content/post-example/Banner.jpg
 # Table of Contents
 1. [Content Server List](#content-server-list)
 2. [Auth Server](#auth-server)
-3. [OpenStack](#openstack)
-    * [운영환경](#운영환경)
-    * [Module list](#module-list)
-    * [Openstacksdk](#openstacksdk)
 
 # Content Server List
 TrusGuard 의 프로토콜 별 트래픽 기능을 검증하기 위해서는 다양한 조건의 L7 프로토콜에 대한 지식 및 운영 환경이 필요하며 담당기능 진행간 하기의 환경에서 QA 를 진행하였음.<br />
@@ -126,81 +122,3 @@ TrusGuard 의 프로토콜 별 트래픽 기능을 검증하기 위해서는 다
 
 
 
-# Openstack
- TrusGuard 의 Cloud 가상화 도입에 의하여 vTG 로 네이밍 되어 AWS, NHN cloud ,KaKao icoud , Naver cloud 에 입점되었다. 네트워크 QA 팀에서는 각 CSP 에서 vTG 인스턴스를 생성하며 테스트를 진행하고 있으며 해당 CSP 의 사용에 제약이 있을 시 대안을 위해 Openstack 클라우드 환경을 필요로 하게 되었다. 
-
-## 운영환경
- 신규 서버 구매에 비용 이슈가 있어 기존 운영하던 TrusGuard 10000B 플랫폼을 개조하여 우분투20.04 를 설치하였으며 OpenStack 버전은 Xena 를 사용하여 운영하였다.  
- 현재 추가적인 서비스 운영은 필요하지 않아 기본 Starter Pack 으로 구축되었다.(+Horizon)
-<br />
-<img src="{{ "/assets/img/work/openstack_starter.png" | absolute_url }}" alt="bay" class="post-pic"/>
-
-
-## Module list
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>표 만들기</title>
-<style>
-    table {
-        border-collapse: collapse;
-        width: 100%;
-        border: 2px solid black; /* 표 전체의 테두리 */
-    }
-    th, td {
-        border: 2px solid black; /* 각 셀의 테두리 */
-        padding: 8px;
-        text-align: left; /* 셀의 텍스트 우측 정렬 */
-    }
-</style>
-   </head>
-
-<table>
-  <tr>
-    <th>Service</th>
-    <th>Module name</th>
-    <th>비고</th>
-  </tr>
-  <tr>
-    <td>Identify</td>
-    <td>KeyStone</td>
-    <td>OpenStack 에서 인증을 담당하는 서비스</td>
-  </tr>
-  <tr>
-    <td>Compute</td>
-    <td>Nova</td>
-    <td>컴퓨팅 기능을 담당하는 서비스 </td>
-  </tr>
-    <tr>
-    <td>Image</td>
-    <td>Glane</td>
-    <td>가상 시스템 이미지 구축 서비스</td>
-  </tr>
-    <tr>
-    <td>DashBoard</td>
-    <td>Horizon</td>
-    <td>Web UI 연동 서비스</td>
-  </tr>
-    <tr>
-    <td>Block Storage</td>
-    <td>Cinder</td>
-    <td>볼륨 관리 서비스</td>
-  </tr>
-    <tr>
-    <td>Network Service</td>
-    <td>Neutron</td>
-    <td>네트워크 기능을 담당하는 서비스로 flat,vxlan 과 같이 Networking 설정 고도화를 위해 ml2 로 OpenvSwitch 를 사용 </td>
-  </tr>
-  
-</table>
-</html>
-
-## Openstacksdk
-Openstack 에서 제공하는 sdk 를 활용하여 vTG 자동화를 진행하였으며 , 주요 테스트 컨텐츠는 TPAT 코드를 재사용 하였다. <br />
-Main Test Case 는 아래와 같다. <br />
-Precondition. <br />
-openstacksdk 는 openstack 서버의 IPC 통신을 위한 Net link 와 통신을 하기 때문에 자동화 컨텐츠가 수행되는 Client 들에는 Openstack IPC Host 에 대한 경로가 있어야 함. 
- > vTG 인스턴스 생성(Openstacksdk 활용) <br />
- > vTG 라이선스 설치 <br />
- > TPAT 자동화 코드 적용 [TPAT](https://minzlim.github.io/Minsoo_port/2020/06/01/TrusGuard_Platform_Automation_Test) 
