@@ -75,8 +75,74 @@ QA 팀에서는 Agent 가 설치된 Client 의 통신간 xTG 장비의 안정성
 
 # ETC Project
  그 외 학업 및 개인 스터디 용 sub 프로젝트들을 기재.  <br />
- [KH Final Project](https://onedrive.live.com/edit?id=707B47AB16B1E73D!6578&resid=707B47AB16B1E73D!6578&ithint=file%2cpptx&authkey=!AEd0Hhp-JBWUM8s&wdo=2&cid=707b47ab16b1e73d) <br />
-  > KH 정보교육원에서 교육 중 마지막 프로젝트로 본인은 공격자 역할로 Reverse Shell , 랜섬웨어 프로그램을 Python3 로 작성.  <br />
 
-[RFID를 이용한 그래픽 표현 도서 검색 시스템](https://onedrive.live.com/edit?id=707B47AB16B1E73D!10717&resid=707B47AB16B1E73D!10717&ithint=file%2cpptx&authkey=!AGElnwh3zxpQK_g&wdo=2&cid=707b47ab16b1e73d) <br />
- > 학부생 시절 소속 연구실 포스터 논문으로 아두이노와 RFID 를 활용한 도서 위치 검색 시스템.  <br />
+ 
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>표 만들기</title>
+<style>
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        border: 2px solid black; /* 표 전체의 테두리 */
+    }
+    th, td {
+        border: 2px solid black; /* 각 셀의 테두리 */
+        padding: 8px;
+        text-align: left; /* 셀의 텍스트 우측 정렬 */
+        word-wrap: break-word; /* 단어가 셀을 벗어나면 자동 개행 */
+        white-space: nowrap; /* 텍스트가 한 줄로 유지되도록 공백 없이 표시 */
+    }
+</style>
+</head>
+<table>
+  <tr>
+    <th>기간</th>
+    <th>Project</th>
+    <th>회사명</th>
+    <th>담당업무</th>
+    <th>Keyword</th>
+  </tr>
+  <tr>
+    <td>2023.08 ~ 2023.12 (4 개월)</td>
+    <td><a href="https://github.com/MinZLIM/minsoo_coinbot">Minsoo_Coinbot</a></td>
+    <td>개인</td>
+    <td>Coin 자동 거래 봇 프로그래밍</td>  
+    <td>Python3, Rest API</td>
+  </tr>
+  <tr>
+    <td>2018.08 ~ 2018.09 (1 개월) </td>
+    <td><a href="https://1drv.ms/b/s!Aj3nsRarR3twnCi8Z0bIwBMkItQ-?e=HZZlin">네트워크 보안 강화 프로젝트</a></td>
+    <td>KH 정보교육원</td>
+    <td>해군 네트워크 구성 및 방화벽 정책 수립</td>
+    <td>Network,Security,</td>
+  </tr>
+  <tr>
+    <td>2019.01 ~ 2019.02 (2 개월)</td>
+    <td><a href="https://onedrive.live.com/view.aspx?resid=707B47AB16B1E73D%216578&authkey=!AEd0Hhp-JBWUM8s">모의 해킹 프로젝트</a></td>
+    <td>KH 정보교육원</td>
+    <td>모의 해킹(Reverse Shell,로컬 부하,레지스트리 변조) </td>  
+    <td>Python3, Security</td>
+  </tr>
+  <tr>
+    <td>2017.09 ~ 2018.03 (6 개월)</td>
+    <td><a href="https://1drv.ms/p/s!Aj3nsRarR3twh26VWGmkwj183af6?e=JiV6sC">Automatic pill dispenser</a></td>
+    <td>조선대학교</td>
+    <td>C 코딩, 아두이노 회로 설계, 아두이노 제어 앱 개발 </td>  
+    <td>아두이노, APP Inventor </td>
+  </tr>
+  <tr>
+    <td>2023.08 ~ 2023.12 (4 개월)</td>
+    <td><a href="https://1drv.ms/p/s!Aj3nsRarR3tw011hJZ8Id88aUCv4?e=aV7wND">RFID를 이용한 그래픽 표현 도서 검색 시스템</a></td>
+    <td>전자파학술대회</td>
+    <td>RFID 제어 코드, 라즈베리파이 회로 설계 </td>  
+    <td>RFID , 라즈베리파이</td>
+  </tr>
+
+</table>
+</html>
+
+
+------
