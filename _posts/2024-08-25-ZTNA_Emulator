@@ -34,10 +34,18 @@ og_image: /assets/img/content/post-example/Banner.jpg
 <br />
 
 # 구현 과제
+<img src="{{ "/assets/img/content/ZTNA/ZTNA_WIN_Emulator.png" | absolute_url }}" alt="bay" class="post-pic"/>
+
 ## Network 환결 별 VM 프로비저닝
- - vSphere 환경은 가상 스위치와 vlan을 통한 Netowrk Domain 설정을 수행할 수 있으며, Terraform 의 vSphere 모듈에서 이에 대한 설정을 지원하고 있다. 이에 따라 하기와 같이 vSphere VM 프로비저닝을 수행하며, 4 가지 Network Topology 환경을 구성한다. 
+ - vSphere 환경은 가상 스위치와 vlan을 통한 Netowrk Domain 설정을 수행할 수 있으며, Terraform 의 vSphere 모듈에서 이에 대한 설정을 지원하고 있다. 이에 따라 하기와 같이 vSphere VM 프로비저닝을 수행하며, 4 가지 Network Topology 환경을 구성한다.
+<img src="{{ "/assets/img/content/ZTNA/ZTNA_Network.png" | absolute_url }}" alt="bay" class="post-pic"/>
 
 <br />
 ## Window VM Host 별 GUI 세션 제어
- 
+ - Terraform 에서 vSphere 모듈을 통하여 VM 프로비저닝에 대한 Config 를 지정한다. (VM Tpl, Network Config)
+<img src="{{ "/assets/img/content/ZTNA/vSphereConfig.png" | absolute_url }}" alt="bay" class="post-pic"/>
+
+ - Window Host 에 원격 자동화는 다양한 Tool을 지원하지만 GUI 세션 원격 제어, CICD 연동을 위해 GoCD Agent를 활용하여 구축한다. 
+<img src="{{ "/assets/img/content/ZTNA/WIN_GoCD_Link.png" | absolute_url }}" alt="bay" class="post-pic"/>
+
 <br />
