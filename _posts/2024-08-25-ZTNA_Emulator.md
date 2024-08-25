@@ -41,6 +41,7 @@ og_image: /assets/img/content/post-example/Banner.jpg
 <img src="{{ "/assets/img/content/ZTNA/ZTNA_Network.png" | absolute_url }}" alt="bay" class="post-pic"/>
 
 <br />
+
 ## Window VM Host 별 GUI 세션 제어
  - Terraform 에서 vSphere 모듈을 통하여 VM 프로비저닝에 대한 Config 를 지정한다. (VM Tpl, Network Config)
 <img src="{{ "/assets/img/content/ZTNA/vSphereConfig.png" | absolute_url }}" alt="bay" class="post-pic"/>
