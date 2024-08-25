@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "ZTNA Emulator(진행 중 프로젝트)"
-date:   2024-08-25 10:00:40
+date:   2019-10-26 10:00:40
 blurb: ""
 og_image: /assets/img/content/post-example/Banner.jpg
 ---
