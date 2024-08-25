@@ -46,7 +46,7 @@ og_image: /assets/img/content/post-example/Banner.jpg
  - Terraform 에서 vSphere 모듈을 통하여 VM 프로비저닝에 대한 Config 를 지정한다. (VM Tpl, Network Config)
 <img src="{{ "/assets/img/content/ZTNA/vSphereConfig.png" | absolute_url }}" alt="bay" class="post-pic"/>
 
- - Window Host 에 원격 자동화는 다양한 Tool을 지원하지만 GUI 세션 원격 제어, CICD 연동을 위해 GoCD Agent를 활용하여 구축한다. 
+- Window를 원격으로 제어하기 위해서는 Robotframework,Winrm,PSEXEC 와 같은 Tool이 있으나 , CI/CD구축 및 GUI 원격 제어, Git을 통한 스크립트 최신화를 위해 GoCD를 사용하여 ZTNA Agent 와 Window를 제어한다.
 <img src="{{ "/assets/img/content/ZTNA/WIN_GoCD_Link.png" | absolute_url }}" alt="bay" class="post-pic"/>
 
 <br />
