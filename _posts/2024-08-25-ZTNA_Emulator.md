@@ -27,7 +27,7 @@ og_image: /assets/img/content/post-example/Banner.jpg
 
 
 ## 목표
- xTG ZTNA 은 기본적으로 가장 많이 사용될 것으로 유추되는 4 가지 Network Topology(SSL VPN 을 통한 ZTNA, IPSec 을 통한 ZTNA, 내부 클라이언트의 외부망 접근에서의 ZTNA, SWG 환경에서의 ZTNA ) 를 고려하여 설계되었다. 
+ xTG ZTNA 은 기본적으로 가장 많이 사용될 것으로 유추되는 4 가지 Network Topology(SSL VPN 을 통한 ZTNA, IPSec 을 통한 ZTNA, 내부 클라이언트의 외부망 접근에서의 ZTNA, SWG 환경에서의 ZTNA ) 를 고려하여 설계되었다.
 <br />
  Client 들의 Network 환경을 유동성있게 프로비저닝 하기 위해서 Terraform 을 활용한 VM 프로비저닝을 수행하며,  최대 120대의 VM Host로 ZTNA Agent를 통한 인증, ZTNA Manager에 의한 통신 제어 동작과 ZTNA Gateway에 대량의 트래픽이 흐르는 환경에서 데몬 상태 및 통신 상태의 신뢰성을 확보하고자 한다.
 
