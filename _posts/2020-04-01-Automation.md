@@ -67,7 +67,7 @@ TCP 의 세션 Status 별 상태 확인을 위하여 hping3 에서 flag 조정�
 
 # Terraform 
 (진행 중 프로젝트) <br />
-[ZTNA_Emulator]()
+[ZTNA_Emulator](https://minzlim.github.io/Minsoo_port/2024/08/20/ZTNA_Emulator)
 xTG(ZTNA)는 접근 디바이스의 OS 별로 ZTNA Agent 가 설치되어 인증 과정을 거치게 되며, 암호화 통신을 통해 내/외부 모든 접근을 하나도(Zero) 믿지 않는다는 개념이다. <br />
 QA 팀에서는 Agent 가 설치된 Client 의 통신간 xTG 장비의 안정성 및 부하 테스트를 위해 자동화 환경을 구축하고 있다. <br />
 본인은 윈도우 Agent 환경을 담당하여 Agent 의 동작(eg. 로그인/로그아웃) 및 xTG 트래픽 부하를 테스트 하기위해 Terraform 으로 vSphere 환경을 제어하고 있다. <br />
